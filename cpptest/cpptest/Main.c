@@ -21,7 +21,7 @@ void root_task(intptr_t exinf)
 	buf[1] = size;
 	buf[2] = size/256;
 	buf[3] = size/65536;
-	intptr_t *sdq =(intptr_t) &buf;		//とりあえず無視してok
+	intptr_t *sdq =(intptr_t) &buf;		//とりあえず無視してok,&はついてもつかなくてもok
 	int a[3] = {1,2,3};
 
 	for (int i = 0; i < 4; i++)

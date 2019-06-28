@@ -6,11 +6,11 @@ SolidMemoryMapCompile:
 ClCompile:
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
+	すべての出力が最新のものです。
 	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c
 	すべての出力が最新のものです。
-	すべての出力が最新のものです。
 C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c(24,12): warning : incompatible integer to pointer conversion initializing '__intptr_t *' (aka 'int *') with an expression of type '__intptr_t' (aka 'int') [-Wint-conversion]
-	        intptr_t *sdq =(intptr_t) &buf;         \\<U+3068><U+308A><U+3042><U+3048><U+305A><U+7121><U+8996><U+3057><U+3066>ok
+	        intptr_t *sdq =(intptr_t) &buf;         \\<U+3068><U+308A><U+3042><U+3048><U+305A><U+7121><U+8996><U+3057><U+3066>ok,&<U+306F><U+3064><U+3044><U+3066><U+3082><U+3064><U+304B><U+306A><U+304F><U+3066><U+3082>ok
 	                  ^    ~~~~~~~~~~~~~~~
 	1 warning generated.
 	すべての出力が最新のものです。
@@ -22,6 +22,6 @@ FinalizeBuildStatus:
 	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_clang\exeClang_SOLID\cpptest\cpptest.tlog\unsuccessfulbuild" を削除しています。
 	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_clang\exeClang_SOLID\cpptest\cpptest.tlog\cpptest.lastbuilddate" のタッチ タスクを実行しています。
 
-ElapsedTime : 00:00:07.3169823
+ElapsedTime : 00:00:06.5518864
 
 ビルドに成功しました。
