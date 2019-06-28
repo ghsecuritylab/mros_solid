@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Project Configuration</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>solid_boot</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <exeGCC_NoStartfiles>true</exeGCC_NoStartfiles>
+      <exeGCC_AdditionalDependencies>$(OutDir)$(AppBinName).bin;%(exeGCC_AdditionalDependencies)</exeGCC_AdditionalDependencies>
+      <exeClang_AdditionalDependencies>$(OutDir)$(AppBinName).bin;%(exeClang_AdditionalDependencies)</exeClang_AdditionalDependencies>
+      <exeGCC_AdditionalLibraryDirectories>$(SOLIDRootDir)boot\lib\$(exeGCC_specs)\$(LibConfig);%(exeGCC_AdditionalLibraryDirectories)</exeGCC_AdditionalLibraryDirectories>
+      <exeGCC_Archives>-lsolid_boot;%(exeGCC_Archives)</exeGCC_Archives>
+      <exeClang_Archives>-lsolid_boot;%(exeClang_Archives)</exeClang_Archives>
+      <exeGCC_LinkerScriptFile>solid_boot.ld</exeGCC_LinkerScriptFile>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

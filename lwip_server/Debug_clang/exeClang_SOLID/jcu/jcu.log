@@ -1,0 +1,21 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_api.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_para.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_reg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\jcu\userdef\jcu_user.c
+Lib:
+	jcu.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\libjcu.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:06.5480955
+
+ビルドに成功しました。

@@ -1,0 +1,35 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\bsp.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\bsp.tlog\bsp.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\bsp.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_iores.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_net_dev_ether.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\bsp_globals.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_sd_spi.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_cs_event.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_timer.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_log.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_net_dev_get_macaddr.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_diskio.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_uart.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_net_dev_getconfig.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_dmac.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_rtc.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\impl_mon.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\common_settings\rza_io_regrw.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\led\led.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\rtc\rtc_driver\rtc.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\rtc\userdef\rtc_userdef.c
+Lib:
+	bsp.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\libbsp.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\bsp.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\bsp\bsp.tlog\bsp.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:11.6022720
+
+ビルドに成功しました。

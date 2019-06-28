@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_clang|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_clang</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_tasan|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_tasan</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|KMC_SOLID_v7A_ARM">
+      <Configuration>Release</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{115f0cf6-6a06-4a60-82a0-707876cce224}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Sanitizer</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Release</LibOptimize>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup>
+    <Import Project="$(SolutionDir)$(SolutionName).props" Condition="exists('$(SolutionDir)$(SolutionName).props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'">
+    <TargetName>libospl</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'">
+    <TargetName>libospl</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'">
+    <TargetName>libospl</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'">
+    <TargetName>libospl</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ospl\porting\DebugBreak.c" />
+    <ClCompile Include="ospl\porting\inline_body.c" />
+    <ClCompile Include="ospl\porting\locking.c" />
+    <ClCompile Include="ospl\porting\mcu_interrupts.c" />
+    <ClCompile Include="ospl\porting\r_ospl_debug.c" />
+    <ClCompile Include="ospl\porting\r_ospl_ftimer.c" />
+    <ClCompile Include="ospl\porting\r_ospl_memory.c" />
+    <ClCompile Include="ospl\porting\r_ospl_RTX.c" />
+    <ClCompile Include="ospl\porting\r_ospl_unrecoverable.c" />
+    <ClCompile Include="ospl\src\r_ospl.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ospl\inc\cpu.h" />
+    <ClInclude Include="ospl\inc\locking.h" />
+    <ClInclude Include="ospl\inc\locking_typedef.h" />
+    <ClInclude Include="ospl\inc\locking_user.h" />
+    <ClInclude Include="ospl\inc\mcu_interrupts.h" />
+    <ClInclude Include="ospl\inc\mcu_interrupts_typedef.h" />
+    <ClInclude Include="ospl\inc\platform.h" />
+    <ClInclude Include="ospl\inc\platform_config.h" />
+    <ClInclude Include="ospl\inc\r_multi_compiler.h" />
+    <ClInclude Include="ospl\inc\r_multi_compiler_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl.h" />
+    <ClInclude Include="ospl\inc\r_ospl_config.h" />
+    <ClInclude Include="ospl\inc\r_ospl_debug.h" />
+    <ClInclude Include="ospl\inc\r_ospl_inline.h" />
+    <ClInclude Include="ospl\inc\r_ospl_private.h" />
+    <ClInclude Include="ospl\inc\r_ospl_RTOS_private.h" />
+    <ClInclude Include="ospl\inc\r_ospl_RTX_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl_typedef_1.h" />
+    <ClInclude Include="ospl\inc\r_static_an_tag.h" />
+  </ItemGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+</Project>

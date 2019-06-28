@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Project Configuration</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetName>$(AppBinName)</TargetName>
+    <ExtensionsToDeleteOnClean>$(OutDir)$(TargetName).bin;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <exeGCC_NoStartfiles>true</exeGCC_NoStartfiles>
+      <exeGCC_LinkerScriptFile>solid_cs.ld</exeGCC_LinkerScriptFile>
+    </Link>
+    <SolidMemoryMapCompile>
+      <OutputFile>$(IntDir)%(Filename).c</OutputFile>
+      <AssemblerIncludeFile>$(IntDir)%(Filename).inc</AssemblerIncludeFile>
+      <LinkerScriptIncludeFile>$(SolutionDir)%(Filename).ld</LinkerScriptIncludeFile>
+    </SolidMemoryMapCompile>
+    <PostBuildEvent>
+      <Command>cd "$(OutDir)"
+if not %ERRORLEVEL% equ 0 exit /b -1
+objcopy.exe -O binary "$(TargetFileName)" "$(TargetName).b"
+if not %ERRORLEVEL% equ 0 exit /b -1
+objcopy.exe -I binary -O elf32-littlearm -B arm --rename-section .data=.solid_cs "$(TargetName).b" "$(TargetName).bin"
+if not %ERRORLEVEL% equ 0 exit /b -1
+del "$(TargetName).b"
+if not %ERRORLEVEL% equ 0 exit /b -1
+</Command>
+      <Message>objcopy:"$(TargetPath)" -&gt; "$(OutDir)$(TargetName).bin"</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+</Project>

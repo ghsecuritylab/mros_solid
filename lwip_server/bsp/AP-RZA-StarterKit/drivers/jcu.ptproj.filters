@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="jcu\inc\r_jcu_api.h" />
+    <ClInclude Include="jcu\inc\r_jcu_local.h" />
+    <ClInclude Include="jcu\inc\r_jcu_pl.h" />
+    <ClInclude Include="jcu\inc\r_jcu_user.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jcu\jcu_driver\jcu_api.c" />
+    <ClCompile Include="jcu\jcu_driver\jcu_para.c" />
+    <ClCompile Include="jcu\jcu_driver\jcu_reg.c" />
+    <ClCompile Include="jcu\porting\jcu_pl.c" />
+    <ClCompile Include="jcu\userdef\jcu_user.c" />
+  </ItemGroup>
+</Project>

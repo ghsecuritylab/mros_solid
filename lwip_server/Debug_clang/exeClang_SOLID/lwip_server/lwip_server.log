@@ -1,0 +1,19 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\lwip_server\lwip_server.tlog\lwip_server.lastbuilddate" のタッチ タスクを実行しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\lwip_server\lwip_server.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+SolidMemoryMapCompile:
+	すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "SolidMemoryMapCompile" を省略します。
+ClCompile:
+	すべての出力が最新のものです。
+	すべての出力が最新のものです。
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\lwip_server\Main.c
+Link:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\lwip_server\lwip_server_all.o: In function `root_task':
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\lwip_server\Main.c(27): undefined reference to `bswap32collect2.exe: error: ld returned 1 exit status
+	'
+clang++.exe : error : linker (via gcc) command failed with exit code 1 (use -v to see invocation)
+プロジェクト "lwip_server.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:03.5598192
+
+ビルドに失敗しました。

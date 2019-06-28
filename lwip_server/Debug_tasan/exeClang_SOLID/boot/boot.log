@@ -1,0 +1,16 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_tasan\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_tasan\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+ClCompile:
+	すべての出力が最新のものです。
+PartialLink:
+	すべての出力が最新のものです。
+Link:
+	boot.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_tasan\exeClang_SOLID\solid_boot.out
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_tasan\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_tasan\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:01.8156424
+
+ビルドに成功しました。

@@ -1,0 +1,18 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\riic.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\riic.tlog\riic.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\riic.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c
+Lib:
+	riic.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\libriic.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\riic.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\riic\riic.tlog\riic.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:02.5426149
+
+ビルドに成功しました。

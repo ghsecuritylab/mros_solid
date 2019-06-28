@@ -1,0 +1,13 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+ClCompile:
+	すべての出力が最新のものです。
+PartialLink:
+	すべての出力が最新のものです。
+clang++.exe : error : no such file or directory: 'C:\Users\admin\Documents\SOLID-IDE\Projects\lwip_server\Debug_clang\exeClang_SOLID\lwip_server.bin'
+プロジェクト "boot.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:01.2077053
+
+ビルドに失敗しました。

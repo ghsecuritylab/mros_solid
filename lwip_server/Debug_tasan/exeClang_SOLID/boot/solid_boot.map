@@ -1,0 +1,307 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+                              (_solid_boot_start)
+C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+                              C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o) (solid_boot)
+C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+                              C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o) (__aeabi_memclr)
+
+Allocating common symbols
+Common symbol       size              file
+
+solid_head          0xa0              C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+solid_ttbtable      0x4               C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+solid_ram        0x20800000         0x00200000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+LOAD C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/lwip_server.bin
+START GROUP
+LOAD C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a
+END GROUP
+LOAD C:/GCC4/ARM/s002/lib/armv7aLaiv\libcompiler_rt.a
+LOAD C:/GCC4/ARM/s002/lib/armv7aLaiv\libstdc++.a
+LOAD C:/GCC4/ARM/s002/lib/armv7aLaiv\libm.a
+START GROUP
+LOAD C:/GCC4/ARM/s002/lib/armv7aLaiv/libgcc.a
+LOAD C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a
+END GROUP
+                0xf8000000                _smm_AddressSanitizer_MonitoringAddress = 0xf8000000
+                0x00800000                _smm_AddressSanitizer_MonitoringSize = 0x800000
+                0x20600000                _smm_AddressSanitizer_ShadowMemoryPhysicalAddress = 0x20600000
+                0x40000000                _smm_AddressSanitizer_ShadowMemoryVirtualAddress = 0x40000000
+                0x21000000                _smm_AddressSanitizer_ShadowMemoryOffset = 0x21000000
+                0x20100000                _smm_RAM_PhysicalAddress = 0x20100000
+                0x00180000                _smm_RAM_Size = 0x180000
+                0x20280000                _smm_TRACE_POINT_PhysicalAddress = 0x20280000
+                0xf5000000                _smm_TRACE_POINT_VirtualAddress = 0xf5000000
+                0x00100000                _smm_TRACE_POINT_Size = 0x100000
+                0x20380000                _smm_JPEG_PhysicalAddress = 0x20380000
+                0xf6000000                _smm_JPEG_VirtualAddress = 0xf6000000
+                0x00018000                _smm_JPEG_Size = 0x18000
+                0x20398000                _smm_JPEG_READ_BUF_PhysicalAddress = 0x20398000
+                0xf6018000                _smm_JPEG_READ_BUF_VirtualAddress = 0xf6018000
+                0x000e8000                _smm_JPEG_READ_BUF_Size = 0xe8000
+                0x20480000                _smm_FRAME_PhysicalAddress = 0x20480000
+                0xf6100000                _smm_FRAME_VirtualAddress = 0xf6100000
+                0x00180000                _smm_FRAME_Size = 0x180000
+                0x20700000                _smm_MEMFS_PhysicalAddress = 0x20700000
+                0xf7000000                _smm_MEMFS_VirtualAddress = 0xf7000000
+                0x00100000                _smm_MEMFS_Size = 0x100000
+                0x20800000                _smm_SOLID_PhysicalAddress = 0x20800000
+                0xf8000000                _smm_SOLID_VirtualAddress = 0xf8000000
+                0x00200000                _smm_SOLID_Size = 0x200000
+                0xe8000000                _smm_SLV3_PhysicalAddress = 0xe8000000
+                0xf0000000                _smm_SLV3_VirtualAddress = 0xf0000000
+                0x00020000                _smm_SLV3_Size = 0x20000
+                0xe8030000                _smm_SLV2_PhysicalAddress = 0xe8030000
+                0xf0030000                _smm_SLV2_VirtualAddress = 0xf0030000
+                0x00020000                _smm_SLV2_Size = 0x20000
+                0xe8100000                _smm_SLV5_PhysicalAddress = 0xe8100000
+                0xf0100000                _smm_SLV5_VirtualAddress = 0xf0100000
+                0x00040000                _smm_SLV5_Size = 0x40000
+                0xe8200000                _smm_SLV4_PhysicalAddress = 0xe8200000
+                0xf0200000                _smm_SLV4_VirtualAddress = 0xf0200000
+                0x00015800                _smm_SLV4_Size = 0x15800
+                0xf0000000                _smm_CA9_PhysicalAddress = 0xf0000000
+                0xf1000000                _smm_CA9_VirtualAddress = 0xf1000000
+                0x00002000                _smm_CA9_Size = 0x2000
+                0xfc000000                _smm_SLV6_PhysicalAddress = 0xfc000000
+                0xf1100000                _smm_SLV6_VirtualAddress = 0xf1100000
+                0x00080000                _smm_SLV6_Size = 0x80000
+                0xfcfe0000                _smm_SLV1_PhysicalAddress = 0xfcfe0000
+                0xf1200000                _smm_SLV1_VirtualAddress = 0xf1200000
+                0x00010000                _smm_SLV1_Size = 0x10000
+                0xfcff0000                _smm_SLV0_PhysicalAddress = 0xfcff0000
+                0xf1210000                _smm_SLV0_VirtualAddress = 0xf1210000
+                0x00010000                _smm_SLV0_Size = 0x10000
+                0xfa000000                _smm_IOAREA_VirtualAddress = 0xfa000000
+                0x01000000                _smm_IOAREA_Size = 0x1000000
+                0xf8300000                _smm_OSSTACK_VirtualAddress = 0xf8300000
+                0x00300000                _smm_OSSTACK_Size = 0x300000
+                0xf8700000                _smm_SOLID_HEAP_VirtualAddress = 0xf8700000
+                0x00080000                _smm_SOLID_HEAP_Size = 0x80000
+                0x20800000                . = _smm_SOLID_PhysicalAddress
+                0x20800000                _ram_start = .
+                0x20800000                _solid_mon_start = .
+
+.text           0x20800000     0x1a50
+                0x20800000                __start_text = .
+ *(vector)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x20800000      0xb34 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+                0x20800000                initEthernet_AP_RZA_1A
+                0x208001e8                initEEPROM_AP_RZA_1A
+                0x20800318                IMPL_BOOT_Init
+                0x20800830                IMPL_BOOT_GetArgument
+                0x20800860                IMPL_BOOT_GetCsInfo
+                0x208008f8                IMPL_BOOT_LoadCs
+ .text          0x20800b34      0x2f0 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+                0x20800b34                _solid_boot_start
+                0x20800b7c                _solid_enable_mmu
+ .text          0x20800e24      0xae4 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+                0x20800e24                solid_boot
+ .text          0x20801908      0x148 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+                0x20801908                __aeabi_memset4
+                0x20801908                __aeabi_memset8
+                0x20801908                __aeabi_memset
+                0x20801918                __aeabi_memclr
+                0x20801918                __aeabi_memclr4
+                0x20801918                __aeabi_memclr8
+                0x20801924                memset
+ *(.glue_7t)
+ .glue_7t       0x20801a50        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x20801a50        0x0 linker stubs
+ *(.solid_mon)
+ *(.smon_text)
+ *(.smon_data)
+                0x20801a50                __end_text = .
+
+.vfp11_veneer   0x20801a50        0x0
+ .vfp11_veneer  0x20801a50        0x0 linker stubs
+
+.v4_bx          0x20801a50        0x0
+ .v4_bx         0x20801a50        0x0 linker stubs
+
+.iplt           0x20801a50        0x0
+ .iplt          0x20801a50        0x0 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+
+.rodata         0x20801a50        0x0
+                0x20801a50                __start_rodata = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+                0x20801a50                __end_rodata = .
+
+.ARM.exidx      0x20801a50        0x8
+ .ARM.exidx     0x20801a50        0x8 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+                                 0x88 (size before relaxing)
+ .ARM.exidx     0x20801a58        0x0 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+                                 0x30 (size before relaxing)
+
+.rel.dyn        0x20801a58        0x0
+ .rel.iplt      0x20801a58        0x0 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+                0x20801a58                . = ALIGN (0x4)
+
+.data           0x20801a58        0x0
+                0x20801a58                __start_data = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x20801a58        0x0 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+                0x20801a58                __end_data = .
+
+.igot.plt       0x20801a58        0x0
+ .igot.plt      0x20801a58        0x0 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+
+.bss            0x20801a58       0xac
+                0x20801a58                __start_bss = .
+ *(.sbss .sbss.* .bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20801a58        0x8 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+ .bss           0x20801a60        0x0 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+ *(COMMON)
+ COMMON         0x20801a60       0xa4 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+                0x20801a60                solid_head
+                0x20801b00                solid_ttbtable
+                0x20801b04                __end_bss = .
+
+.stacks         0x20801b04     0x1000
+                0x20801b04                _stack_init_svc = .
+                0x20802b04                . = (. + 0x1000)
+ *fill*         0x20801b04     0x1000 
+                0x20802b04                _stack_start_svc = .
+                0x20802b04                _solid_mon_end = .
+                0x20810000                . = (_smm_SOLID_PhysicalAddress + 0x10000)
+
+.solid_cs       0x20810000    0xcb500
+                0x20810000                __start_solid_cs = .
+ *(.solid_cs)
+ .solid_cs      0x20810000    0x8b500 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/lwip_server.bin
+                0x20810000                _binary_lwip_server_b_start
+                0x2089b500                _binary_lwip_server_b_end
+                0x2089b500                __end_solid_cs = .
+                0x208db500                . = (. + 0x40000)
+ *fill*         0x2089b500    0x40000 
+                0x208db500                _end = .
+
+.comment        0x00000000       0x2d
+ *(.comment)
+ .comment       0x00000000       0x2d C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+                                 0x2e (size before relaxing)
+ .comment       0x0000002d       0x2e C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.ARM.attributes
+                0x00000000       0x3d
+ .ARM.attributes
+                0x00000000       0x45 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .ARM.attributes
+                0x00000045       0x1c C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+ .ARM.attributes
+                0x00000061       0x38 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+ .ARM.attributes
+                0x00000099       0x1d C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+ .debug_aranges
+                0x00000020       0x20 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+
+.debug_pubnames
+                0x00000000      0x22f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x14f C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_pubnames
+                0x0000014f       0xe0 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.debug_info     0x00000000      0xd40
+ *(.debug_info)
+ .debug_info    0x00000000      0x3b3 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_info    0x000003b3      0x39b C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+ .debug_info    0x0000074e      0x530 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+ .debug_info    0x00000c7e       0xc2 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+
+.debug_abbrev   0x00000000      0x243
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xf8 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_abbrev  0x000000f8       0x28 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+ .debug_abbrev  0x00000120      0x10f C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+ .debug_abbrev  0x0000022f       0x14 C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+
+.debug_line     0x00000000      0xcc4
+ *(.debug_line)
+ .debug_line    0x00000000      0x4a8 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_line    0x000004a8      0x125 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot_init.o)
+ .debug_line    0x000005cd      0x618 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+ .debug_line    0x00000be5       0xdf C:/GCC4/ARM/s002/lib/armv7aLaiv/libc.a(memset.o)
+
+.debug_frame    0x00000000      0x250
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1a4 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_frame   0x000001a4       0xac C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.debug_str      0x00000000      0x4f7
+ *(.debug_str)
+ .debug_str     0x00000000      0x25a C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+                                0x268 (size before relaxing)
+ .debug_str     0x0000025a      0x29d C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+                                0x308 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo  0x00000000        0x2
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000        0x1 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_macinfo
+                0x00000001        0x1 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/solid_boot.out elf32-littlearm)
+
+.debug_pubtypes
+                0x00000000      0x1b8
+ .debug_pubtypes
+                0x00000000       0x64 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_pubtypes
+                0x00000064      0x154 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
+
+.debug_ranges   0x00000000        0x0
+ .debug_ranges  0x00000000        0x0 C:/Users/admin/Documents/SOLID-IDE/Projects/lwip_server/Debug_tasan/exeClang_SOLID/boot/boot_all.o
+ .debug_ranges  0x00000000        0x0 C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/boot/lib/armv7aLaiv/CT_\libsolid_boot.a(solid_boot.o)
