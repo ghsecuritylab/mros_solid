@@ -1,8 +1,9 @@
 /* kernel_cfg.c */
+
 #include "kernel/kernel_int.h"
 #include "kernel_cfg.h"
 
-#include "Main.h"  // アプリケーション独自の定義
+#include "Main.h" // アプリケーション独自の定義
 
 #if !(TKERNEL_PRID == 0x0007U && (TKERNEL_PRVER & 0xf000U) == 0x3000U)
 #error The kernel does not match this configuration file.
@@ -17,16 +18,16 @@
 *	(静的なテーブルで定義される資源に追加して動的に
 * 	生成できる資源数を定義
 */
-#define	TNUM_AID_TSK	0 		// タスク
-#define	TNUM_AID_SEM	0 		// セマフォ
-#define	TNUM_AID_FLG	0 		// イベントフラグ
-#define	TNUM_AID_DTQ	0 		// データキュー
-#define	TNUM_AID_PDQ	0 		// 優先度データキュー
-#define	TNUM_AID_MTX	0 		// ミューテックス
-#define	TNUM_AID_MPF	0 		// 固定長メモリプール
-#define	TNUM_AID_CYC	0 		// 周期通知
-#define	TNUM_AID_ALM	0 		// アラーム通知
-#define	TNUM_AID_ISR	0 		// ISR（割込みサービスルーチン
+#define TNUM_AID_TSK 0 // タスク
+#define TNUM_AID_SEM 0 // セマフォ
+#define TNUM_AID_FLG 0 // イベントフラグ
+#define TNUM_AID_DTQ 0 // データキュー
+#define TNUM_AID_PDQ 0 // 優先度データキュー
+#define TNUM_AID_MTX 0 // ミューテックス
+#define TNUM_AID_MPF 0 // 固定長メモリプール
+#define TNUM_AID_CYC 0 // 周期通知
+#define TNUM_AID_ALM 0 // アラーム通知
+#define TNUM_AID_ISR 0 // ISR（割込みサービスルーチン
 
 /*
  *  Task Management Functions
@@ -47,11 +48,10 @@
  */
 
 const TINIB _kernel_tinib_table[] = {
-		{ TA_ACT, 0, root_task, INT_PRIORITY(MID_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
-		{TA_NULL, 0, user_task, INT_PRIORITY(LOW_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
-		{TA_NULL, 0, xml_mas_task, INT_PRIORITY(LOW_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
-		__SOLID_RESERVED_TASKS__
-};
+	{TA_ACT, 0, root_task, INT_PRIORITY(MID_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
+	{TA_NULL, 0, hello_task, INT_PRIORITY(LOW_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
+	//{TA_NULL, 0, goodbye_task, INT_PRIORITY(MID_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
+	__SOLID_RESERVED_TASKS__};
 
 /*
  * タスク初期化ブロックの設定例
@@ -78,10 +78,9 @@ const TINIB _kernel_tinib_table[] = {
 
 const ID _kernel_torder_table[] = {
 	ROOT_TASK,
-	USER_TASK,
-	XML_MAS_TASK,
-	__SOLID_RESERVED_TASK_ORDER__
-};
+	HELLO_TASK,
+	//GOODBYE_TASK,
+	__SOLID_RESERVED_TASK_ORDER__};
 
 /*
  *  Semaphore Functions
@@ -99,8 +98,7 @@ const ID _kernel_torder_table[] = {
  */
 
 const SEMINIB _kernel_seminib_table[] = {
-	__SOLID_RESERVED_SEMS__
-};
+	__SOLID_RESERVED_SEMS__};
 
 /*
  *  セマフォ初期化ブロックの設定例
@@ -157,12 +155,18 @@ const FLGINIB _kernel_flginib_table[] = {
  *    DTQMB       *p_dtqmb;       // データキュー管理領域の先頭番地
  * } DTQINIB;
  */
-
+//ここでデータキューが作られてる
+//削除してsnd_dtqしたら怒られる
+/*
 const DTQINIB _kernel_dtqinib_table[] = {
-	{TA_NULL,4,TA_NULL},
-	__SOLID_RESERVED_DTQS__
-};
-
+	{TA_NULL,4, NULL}, 
+	//{TA_NULL,32,NULL},
+	__SOLID_RESERVED_DTQS__};
+*/
+const DTQINIB _kernel_dtqinib_table[] = {
+	{TA_NULL, 4, NULL},
+	{TA_NULL, 32, NULL},
+	__SOLID_RESERVED_DTQS__};
 /*
  *  データキュー初期化ブロックの設定例
  *
@@ -175,7 +179,6 @@ const DTQINIB _kernel_dtqinib_table[] = {
  * };
  *
  */
-
 
 /*
  *  Priority Dataqueue Functions
@@ -210,7 +213,6 @@ const PDQINIB _kernel_pdqinib_table[] = {
  * };
  *
  */
-
 
 /*
  *  Mutex Functions
@@ -322,8 +324,6 @@ const MPFINIB _kernel_mpfinib_table[] = {
  * };
  *
  */
-
-
 
 /*
  *  Cyclic Notification Functions
@@ -453,7 +453,6 @@ const ALMINIB _kernel_alminib_table[] = {
  *
 */
 
-
 /*
  *  Interrupt Management Functions
  */
@@ -508,10 +507,9 @@ const INTINIB _kernel_intinib_table[] = {
 *} T_CISR;
 */
 
-const T_CISR  _kernel_isrini_cfg_table[] = {
+const T_CISR _kernel_isrini_cfg_table[] = {
 
 };
-
 
 /*
  * 割込みサービスルーチン(ISR)初期化ブロックの設定例
@@ -558,10 +556,9 @@ const ID _kernel_isrorder_table[] = {
  * この関数から復帰するまでタスクは開始されません。
  */
 
-void
-_kernel_call_inirtn(void)
+void _kernel_call_inirtn(void)
 {
-		__SOLID_SYS_INTRTN();
+	__SOLID_SYS_INTRTN();
 }
 
 /*
@@ -577,10 +574,9 @@ _kernel_call_inirtn(void)
  * 終了しているため、終了処理の中でサービスコールなどのカーネルの機能を使うことはできません。
  */
 
-void
-_kernel_call_terrtn(void)
+void _kernel_call_terrtn(void)
 {
-		__SOLID_SYS_TERRTN();
+	__SOLID_SYS_TERRTN();
 }
 
 /***** DO NOT REMOVE *****/

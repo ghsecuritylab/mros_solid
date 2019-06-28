@@ -177,16 +177,16 @@ END GROUP
                 0x20802b04                _solid_mon_end = .
                 0x20810000                . = (_smm_SOLID_PhysicalAddress + 0x10000)
 
-.solid_cs       0x20810000   0x15d958
+.solid_cs       0x20810000   0x15e958
                 0x20810000                __start_solid_cs = .
  *(.solid_cs)
- .solid_cs      0x20810000   0x11d958 C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/Debug_clang/exeClang_SOLID/mros_002.bin
+ .solid_cs      0x20810000   0x11e958 C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/Debug_clang/exeClang_SOLID/mros_002.bin
                 0x20810000                _binary_mros_002_b_start
-                0x2092d958                _binary_mros_002_b_end
-                0x2092d958                __end_solid_cs = .
-                0x2096d958                . = (. + 0x40000)
- *fill*         0x2092d958    0x40000 
-                0x2096d958                _end = .
+                0x2092e958                _binary_mros_002_b_end
+                0x2092e958                __end_solid_cs = .
+                0x2096e958                . = (. + 0x40000)
+ *fill*         0x2092e958    0x40000 
+                0x2096e958                _end = .
 
 .comment        0x00000000       0x2d
  *(.comment)
