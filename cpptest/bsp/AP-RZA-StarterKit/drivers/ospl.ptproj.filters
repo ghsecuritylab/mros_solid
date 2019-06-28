@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ospl\porting\DebugBreak.c" />
+    <ClCompile Include="ospl\porting\inline_body.c" />
+    <ClCompile Include="ospl\porting\locking.c" />
+    <ClCompile Include="ospl\porting\mcu_interrupts.c" />
+    <ClCompile Include="ospl\porting\r_ospl_debug.c" />
+    <ClCompile Include="ospl\porting\r_ospl_ftimer.c" />
+    <ClCompile Include="ospl\porting\r_ospl_memory.c" />
+    <ClCompile Include="ospl\porting\r_ospl_RTX.c" />
+    <ClCompile Include="ospl\porting\r_ospl_unrecoverable.c" />
+    <ClCompile Include="ospl\src\r_ospl.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ospl\inc\cpu.h" />
+    <ClInclude Include="ospl\inc\locking.h" />
+    <ClInclude Include="ospl\inc\locking_typedef.h" />
+    <ClInclude Include="ospl\inc\locking_user.h" />
+    <ClInclude Include="ospl\inc\mcu_interrupts.h" />
+    <ClInclude Include="ospl\inc\mcu_interrupts_typedef.h" />
+    <ClInclude Include="ospl\inc\platform.h" />
+    <ClInclude Include="ospl\inc\platform_config.h" />
+    <ClInclude Include="ospl\inc\r_multi_compiler.h" />
+    <ClInclude Include="ospl\inc\r_multi_compiler_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl.h" />
+    <ClInclude Include="ospl\inc\r_ospl_config.h" />
+    <ClInclude Include="ospl\inc\r_ospl_debug.h" />
+    <ClInclude Include="ospl\inc\r_ospl_inline.h" />
+    <ClInclude Include="ospl\inc\r_ospl_private.h" />
+    <ClInclude Include="ospl\inc\r_ospl_RTOS_private.h" />
+    <ClInclude Include="ospl\inc\r_ospl_RTX_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl_typedef.h" />
+    <ClInclude Include="ospl\inc\r_ospl_typedef_1.h" />
+    <ClInclude Include="ospl\inc\r_static_an_tag.h" />
+  </ItemGroup>
+</Project>

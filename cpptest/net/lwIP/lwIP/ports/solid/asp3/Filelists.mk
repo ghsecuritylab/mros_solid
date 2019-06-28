@@ -1,0 +1,1 @@
+LWIPARCHFILES = $(STACK_ARCH_PATH)/sys_arch.c 

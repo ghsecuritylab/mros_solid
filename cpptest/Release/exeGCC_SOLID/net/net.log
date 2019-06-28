@@ -1,0 +1,699 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\net.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\net.tlog\net.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\net.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\asp3\sys_arch.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\icmp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\sys.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\lcp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\sys.c(77):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\icmp.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\lcp.c(43):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\sys.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\asp3\sys_arch.c(2):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\magic.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\igmp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\impl_net_stack.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp.c(48):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\magic.c(75):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\igmp.c(83):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\init.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\impl_net_stack.c(3):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\mppe.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\impl_net_stack_errno.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp_in.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\mppe.c(26):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\impl_net_stack_errno.c(1):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp_in.c(44):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\multilink.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\netif\ethernetif.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4_addr.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\multilink.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\netif\ethernetif.c(46):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4_addr.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\arc4.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp_out.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\api_lib.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4_frag.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\arc4.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\tcp_out.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\api_lib.c(58):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\ip4_frag.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\des.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\api_msg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\timeouts.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\dhcp6.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\des.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\api_msg.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\md4.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\timeouts.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\dhcp6.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ethip6.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\udp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\md4.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ethip6.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\err.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\udp.c(48):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\md5.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\icmp6.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\err.h:39,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\err.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\md5.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ethernet.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\icmp6.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netbuf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\sha1.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\inet6.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ethernet.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netbuf.c(45):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\polarssl\sha1.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\inet6.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\lowpan6.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ppp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netdb.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\lowpan6_opts.h:44,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\lowpan6.h:45,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\lowpan6.c(48):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ppp.c(88):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\netdb.h:37,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netdb.c(38):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\auth.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppapi.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6_addr.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netifapi.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\auth.c(71):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppapi.c(34):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6_addr.c(43):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\netifapi.c(41):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ccp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppcrypt.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6_frag.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\sockets.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ccp.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppcrypt.c(33):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\ip6_frag.c(42):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\sockets.c(47):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap-md5.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppoe.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\mld6.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap-md5.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppoe.c(71):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\mld6.c(49):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap-new.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppol2tp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\nd6.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\tcpip.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap-new.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppol2tp.c(53):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv6\nd6.c(44):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\api\tcpip.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap_ms.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppos.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\mem.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\chap_ms.c(77):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\def.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\pppos.c(34):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\mem.c(56):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\demand.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\upap.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\def.c(61):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\memp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\demand.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\upap.c(43):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\dns.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\eap.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\memp.c(46):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\utils.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\dns.c(85):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\eap.c(46):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\utils.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\netif.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ecp.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\vj.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\inet_chksum.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\netif.c(51):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ecp.c(60):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\vj.c(31):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\inet_chksum.c(48):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\pbuf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\eui64.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\init.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\pbuf.c(112):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\eui64.c(38):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(106,37): warning : initialization makes pointer from integer without a cast [-Wint-conversion]
+	 #define POLL_LINK_INTERVAL          (1000*1000)     \\ = 1sec
+	                                     ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(129,5): note: in expansion of macro 'POLL_LINK_INTERVAL'
+	     POLL_LINK_INTERVAL,   \* unsigned long time;          繧ｿ繧､繝樣夂衍繧偵☆繧区凾髢・usec) *\
+	     ^~~~~~~~~~~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(106,37): note: (near initialization for '_poll_link_timer_inf.func')
+	 #define POLL_LINK_INTERVAL          (1000*1000)     \\ = 1sec
+	                                     ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(129,5): note: in expansion of macro 'POLL_LINK_INTERVAL'
+	     POLL_LINK_INTERVAL,   \* unsigned long time;          繧ｿ繧､繝樣夂衍繧偵☆繧区凾髢・usec) *\
+	     ^~~~~~~~~~~~~~~~~~
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(131,5): warning : excess elements in struct initializer
+	     NULL                        \* void* param;  繧ｿ繧､繝樣夂衍譎ゅ↓蜻ｼ縺ｳ蜃ｺ縺輔ｌ繧矩未謨ｰ縺ｮ繝代Λ繝｡繝ｼ繧ｿ *\
+	     ^~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_if.c(131,5): note: (near initialization for '_poll_link_timer_inf')
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\fsm.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\init.c(38):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_registerapi.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\raw.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\fsm.c(43):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ip.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\solid_net_registerapi.c(6):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ipcp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\raw.c(48):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ip.c(56):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ipcp.c(43):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\stats.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\autoip.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ipv6cp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\stats.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\autoip.c(59):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\netif\ppp\ppp_opts.h:31,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\netif\ppp\ipv6cp.c(150):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\dhcp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\dhcp.c(63):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\etharp.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\arch.h(48):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\debug.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\include\lwip\opt.h:52,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\src\core\ipv4\etharp.c(46):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\net\lwIP\lwIP\ports\solid\common\include\arch\cc.h(76,28): warning : missing terminating ' character
+	         This software doesn't support PDP endian.
+	                            ^
+Lib:
+	net.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\libnet.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\net.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\net\net.tlog\net.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:42.0789316
+
+ビルドに成功しました。

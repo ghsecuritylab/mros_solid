@@ -1,0 +1,42 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\riic.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\riic.tlog\riic.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\riic.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c: In function 'R_RIIC_TeiInterrupt':
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c: In function 'Userdef_RIIC0_Init':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c(705,22): warning : variable 'dummy_buf_8b' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf_8b;
+	                      ^~~~~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c: In function 'RIIC_ReceiveDummy':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\riic_driver\riic.c(833,22): warning : variable 'dummy_buf_8b' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf_8b;
+	                      ^~~~~~~~~~~~
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c(263,22): warning : variable 'dummy_buf' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf;
+	                      ^~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c: In function 'Userdef_RIIC1_Init':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c(292,22): warning : variable 'dummy_buf' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf;
+	                      ^~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c: In function 'Userdef_RIIC2_Init':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c(321,22): warning : variable 'dummy_buf' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf;
+	                      ^~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c: In function 'Userdef_RIIC3_Init':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\riic\userdef\riic_userdef.c(350,22): warning : variable 'dummy_buf' set but not used [-Wunused-but-set-variable]
+	     volatile uint8_t dummy_buf;
+	                      ^~~~~~~~~
+Lib:
+	riic.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\libriic.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\riic.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\riic\riic.tlog\riic.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:02.2808326
+
+ビルドに成功しました。

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_clang|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_clang</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_tasan|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_tasan</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|KMC_SOLID_v7A_ARM">
+      <Configuration>Release</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lwIP\ports\solid\asp3\sys_arch.c" />
+    <ClCompile Include="lwIP\ports\solid\common\impl_net_stack.c" />
+    <ClCompile Include="lwIP\ports\solid\common\impl_net_stack_errno.c" />
+    <ClCompile Include="lwIP\ports\solid\common\netif\ethernetif.c" />
+    <ClCompile Include="lwIP\src\api\api_lib.c" />
+    <ClCompile Include="lwIP\src\api\api_msg.c" />
+    <ClCompile Include="lwIP\src\api\err.c" />
+    <ClCompile Include="lwIP\src\api\netbuf.c" />
+    <ClCompile Include="lwIP\src\api\netdb.c" />
+    <ClCompile Include="lwIP\src\api\netifapi.c" />
+    <ClCompile Include="lwIP\src\api\sockets.c" />
+    <ClCompile Include="lwIP\src\api\tcpip.c" />
+    <ClCompile Include="lwIP\src\core\def.c" />
+    <ClCompile Include="lwIP\src\core\dns.c" />
+    <ClCompile Include="lwIP\src\core\inet_chksum.c" />
+    <ClCompile Include="lwIP\src\core\init.c" />
+    <ClCompile Include="lwIP\src\core\ip.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\autoip.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\dhcp.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\etharp.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\icmp.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\igmp.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\ip4.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\ip4_addr.c" />
+    <ClCompile Include="lwIP\src\core\ipv4\ip4_frag.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\dhcp6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\ethip6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\icmp6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\inet6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\ip6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\ip6_addr.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\ip6_frag.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\mld6.c" />
+    <ClCompile Include="lwIP\src\core\ipv6\nd6.c" />
+    <ClCompile Include="lwIP\src\core\mem.c" />
+    <ClCompile Include="lwIP\src\core\memp.c" />
+    <ClCompile Include="lwIP\src\core\netif.c" />
+    <ClCompile Include="lwIP\src\core\pbuf.c" />
+    <ClCompile Include="lwIP\src\core\raw.c" />
+    <ClCompile Include="lwIP\src\core\stats.c" />
+    <ClCompile Include="lwIP\src\core\sys.c" />
+    <ClCompile Include="lwIP\src\core\tcp.c" />
+    <ClCompile Include="lwIP\src\core\tcp_in.c" />
+    <ClCompile Include="lwIP\src\core\tcp_out.c" />
+    <ClCompile Include="lwIP\src\core\timeouts.c" />
+    <ClCompile Include="lwIP\src\core\udp.c" />
+    <ClCompile Include="lwIP\src\netif\ethernet.c" />
+    <ClCompile Include="lwIP\src\netif\lowpan6.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\auth.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\ccp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\chap-md5.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\chap-new.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\chap_ms.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\demand.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\eap.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\ecp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\eui64.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\fsm.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\ipcp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\ipv6cp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\lcp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\magic.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\mppe.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\multilink.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\polarssl\arc4.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\polarssl\des.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\polarssl\md4.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\polarssl\md5.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\polarssl\sha1.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\ppp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\pppapi.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\pppcrypt.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\pppoe.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\pppol2tp.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\pppos.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\upap.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\utils.c" />
+    <ClCompile Include="lwIP\src\netif\ppp\vj.c" />
+    <ClCompile Include="solid_net_if.c" />
+    <ClCompile Include="solid_net_registerapi.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\core\inc\impl_net_stack.h" />
+    <ClInclude Include="..\..\core\inc\impl_net_types.h" />
+    <ClInclude Include="lwIP\src\include\lwip\netif.h" />
+    <ClInclude Include="solid_net_registerapi.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B3A6514-5EB5-4C7D-A144-7DDD34D3F5B7}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Sanitizer</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Release</LibOptimize>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup>
+    <Import Project="$(SolutionDir)$(SolutionName).props" Condition="exists('$(SolutionDir)$(SolutionName).props')" />
+    <Import Project="net.props" Condition="exists('net.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+</Project>

@@ -1,0 +1,20 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest\cpptest.tlog\cpptest.lastbuilddate" のタッチ タスクを実行しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest\cpptest.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\goodbye.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\hello.cpp
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c
+Link:
+	cpptest.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest.out
+PostBuildEvent:
+	Description: objcopy:"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest.out" -> "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest.bin"
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest\cpptest.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\cpptest\cpptest.tlog\cpptest.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:10.1780564
+
+ビルドに成功しました。

@@ -1,0 +1,14 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\boot\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\boot\boot.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\boot\boot.tlog\boot.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\boot\boot.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\impl_boot.c
+g++.exe : error : C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest.bin: No such file or directory
+プロジェクト "boot.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:02.3008729
+
+ビルドに失敗しました。

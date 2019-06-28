@@ -1,0 +1,70 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\jcu.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_api.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_para.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_reg.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c(36):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\inc\r_jcu_api.h:40,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_reg.c(37):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_para.c(37):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_api.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c: In function 'R_JCU_OnInitialize':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c(254,27): warning : variable 'dummy' set but not used [-Wunused-but-set-variable]
+	         volatile uint8_t  dummy;
+	                           ^~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c: In function 'R_JCU_OnFinalize':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c(291,27): warning : variable 'dummy' set but not used [-Wunused-but-set-variable]
+	         volatile uint8_t  dummy;
+	                           ^~~~~
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\userdef\jcu_user.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\jcu\userdef\jcu_user.c(36):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+Lib:
+	jcu.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\libjcu.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:04.7072991
+
+ビルドに成功しました。

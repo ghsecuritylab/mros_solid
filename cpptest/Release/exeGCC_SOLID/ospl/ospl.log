@@ -1,0 +1,118 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\ospl.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\ospl.tlog\ospl.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\ospl.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\DebugBreak.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_debug.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_memory.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\locking.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_debug.c(35):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\locking.c(36):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	 ^
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_memory.c(35):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\DebugBreak.c(36):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_ftimer.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\inline_body.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\mcu_interrupts.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\inline_body.c(34):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_ftimer.c(38):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c(36):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c: In function 'R_OSPL_THREAD_GetCurrentId':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c(112,8): warning : variable 'ercd' set but not used [-Wunused-but-set-variable]
+	     ER ercd; \\ tokuyama@kmg 2016.09.08
+	        ^~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c: In function 'R_OSPL_EVENT_Set':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c(124,8): warning : variable 'ercd' set but not used [-Wunused-but-set-variable]
+	     ER ercd;
+	        ^~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c: In function 'R_OSPL_EVENT_Clear':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c(191,8): warning : variable 'ercd' set but not used [-Wunused-but-set-variable]
+	     ER ercd;
+	        ^~~~
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\mcu_interrupts.c(35):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_unrecoverable.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_unrecoverable.c(35):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\src\r_ospl.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\src\r_ospl.c(35):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+Lib:
+	ospl.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\libospl.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\ospl.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\ospl\ospl.tlog\ospl.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:06.3194243
+
+ビルドに成功しました。

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lcd\lcd_panel\lcd_lcd_kit_b01_ch0.c" />
+    <ClCompile Include="lcd\lcd_panel\lcd_lcd_kit_b01_ch1.c" />
+  </ItemGroup>
+</Project>

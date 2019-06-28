@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MemoryMap xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" Id="07d49bb2-2afa-4630-a2b0-a0ee8e499f75" xmlns="http://schemas.microsoft.com/dsltools/SolidMemoryMap">
+  <MemoryConfigurations>
+    <MemoryConfiguration Name="RAM" PhysicalAddress="0x20100000" Size="0x00180000" />
+    <MemoryConfiguration Name="TRACE_POINT" PhysicalAddress="0x20280000" Size="0x00100000" VirtualAddress="0xf5000000" />
+    <MemoryConfiguration Name="JPEG" PhysicalAddress="0x20380000" Size="0x00018000" Attribute="SOLID_IO" VirtualAddress="0xf6000000" />
+    <MemoryConfiguration Name="JPEG_READ_BUF" PhysicalAddress="0x20398000" Size="0x000E8000" VirtualAddress="0xf6018000" />
+    <MemoryConfiguration Name="FRAME" PhysicalAddress="0x20480000" Size="0x00180000" Attribute="SOLID_IO" VirtualAddress="0xf6100000" />
+    <MemoryConfiguration Name="MEMFS" PhysicalAddress="0x20700000" Size="0x00100000" VirtualAddress="0xF7000000" />
+    <MemoryConfiguration Name="SOLID" PhysicalAddress="0x20800000" Size="0x00300000" Attribute="SOLID_CORE" VirtualAddress="0xf8000000" />
+    <MemoryConfiguration Name="SLV3" PhysicalAddress="0xE8000000" Size="0x00020000" Attribute="SOLID_IO" VirtualAddress="0xF0000000" />
+    <MemoryConfiguration Name="SLV2" PhysicalAddress="0xE8030000" Size="0x00020000" Attribute="SOLID_IO" VirtualAddress="0xF0030000" />
+    <MemoryConfiguration Name="SLV5" PhysicalAddress="0xE8100000" Size="0x00040000" Attribute="SOLID_IO" VirtualAddress="0xF0100000" />
+    <MemoryConfiguration Name="SLV4" PhysicalAddress="0xE8200000" Size="0x00015800" Attribute="SOLID_IO" VirtualAddress="0xF0200000" />
+    <MemoryConfiguration Name="CA9" PhysicalAddress="0xF0000000" Size="0x00002000" Attribute="SOLID_IO" VirtualAddress="0xF1000000" />
+    <MemoryConfiguration Name="SLV6" PhysicalAddress="0xFC000000" Size="0x00080000" Attribute="SOLID_IO" VirtualAddress="0xF1100000" />
+    <MemoryConfiguration Name="SLV1" PhysicalAddress="0xFCFE0000" Size="0x00010000" Attribute="SOLID_IO" VirtualAddress="0xF1200000" />
+    <MemoryConfiguration Name="SLV0" PhysicalAddress="0xFCFF0000" Size="0x00010000" Attribute="SOLID_IO" VirtualAddress="0xF1210000" />
+    <MemoryConfiguration Name="IOAREA" Size="0x01000000" Attribute="SOLID_RESERVE" VirtualAddress="0xFA000000" />
+    <MemoryConfiguration Name="OSSTACK" Size="0x300000" Attribute="SOLID_RESERVE" VirtualAddress="0xF8300000" />
+    <MemoryConfiguration Name="SOLID_HEAP" Size="0x80000" Attribute="SOLID_RESERVE" VirtualAddress="0xf8700000" />
+  </MemoryConfigurations>
+  <AddressSanitizerSettings MonitoringAddress="0xf8000000" MonitoringSize="0x00800000" ShadowMemoryPhysicalAddress="0x20600000" ShadowMemoryVirtualAddress="0x40000000" />
+  <MappablePhysicalAreas>
+    <MappablePhysicalArea Name="Area1" Size="0x100000000" />
+  </MappablePhysicalAreas>
+</MemoryMap>

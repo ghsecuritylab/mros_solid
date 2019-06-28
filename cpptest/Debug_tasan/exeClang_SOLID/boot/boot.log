@@ -1,0 +1,16 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	すべての出力が最新のものです。
+PartialLink:
+	すべての出力が最新のものです。
+Link:
+	boot.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\solid_boot.out
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:02.3592702
+
+ビルドに成功しました。

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_clang|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_clang</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_tasan|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_tasan</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|KMC_SOLID_v7A_ARM">
+      <Configuration>Release</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03672d29-a7b4-4a76-b596-be02b926da40}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Sanitizer</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Release</LibOptimize>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup>
+    <Import Project="$(SolutionDir)$(SolutionName).props" Condition="exists('$(SolutionDir)$(SolutionName).props')" />
+    <Import Project="$(ProjectDir)$(ProjectName).props" Condition="exists('$(ProjectDir)$(ProjectName).props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="drivers\bsp_globals.c" />
+    <ClCompile Include="drivers\impl_cs_event.c" />
+    <ClCompile Include="drivers\impl_diskio.c" />
+    <ClCompile Include="drivers\impl_dmac.c" />
+    <ClCompile Include="drivers\impl_iores.c" />
+    <ClCompile Include="drivers\impl_log.c" />
+    <ClCompile Include="drivers\impl_mem_conf.c" />
+    <ClCompile Include="drivers\impl_mon.c" />
+    <ClCompile Include="drivers\impl_net_dev_ether.c" />
+    <ClCompile Include="drivers\impl_net_dev_get_macaddr.c" />
+    <ClCompile Include="drivers\impl_net_dev_getconfig.c" />
+    <ClCompile Include="drivers\impl_rtc.c" />
+    <ClCompile Include="drivers\impl_sd_spi.c" />
+    <ClCompile Include="drivers\impl_timer.c" />
+    <ClCompile Include="drivers\impl_uart.c" />
+    <ClCompile Include="drivers\common_settings\rza_io_regrw.c" />
+    <ClCompile Include="drivers\led\led.c" />
+    <ClCompile Include="drivers\rtc\rtc_driver\rtc.c" />
+    <ClCompile Include="drivers\rtc\userdef\rtc_userdef.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drivers\impl_gpio.h" />
+    <ClInclude Include="drivers\impl_rza1_eth.h" />
+    <ClInclude Include="drivers\impl_sd_spi.h" />
+    <ClInclude Include="drivers\common\inc\clib_drivers_config.h" />
+    <ClInclude Include="drivers\inc\dev_drv.h" />
+    <ClInclude Include="drivers\inc\iodefine.h" />
+    <ClInclude Include="drivers\inc\led.h" />
+    <ClInclude Include="drivers\inc\Project_Config.h" />
+    <ClInclude Include="drivers\inc\Project_Config_Sub.h" />
+    <ClInclude Include="drivers\inc\rza_io_regrw.h" />
+    <ClInclude Include="drivers\inc\r_typedefs.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\adc_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\bsc_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\cpg_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\dmac_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\dmac_rm_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\gpio_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\intc_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\mtu2_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\ostm_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\pfv_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\riic_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\rspi_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\rtc_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\scif_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\spibsc_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iobitmasks\usb_iobitmask.h" />
+    <ClInclude Include="drivers\inc\iodefines\adc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\bsc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\ceu_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\cpg_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\disc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\dmac_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\dvdec_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\ether_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\flctl_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\gpio_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\ieb_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\inb_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\intc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\irda_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\jcu_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\l2c_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\lin_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\lvds_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\mlb_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\mmc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\mtu2_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\ostm_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\pfv_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\pwm_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\riic_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\romdec_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\rscan0_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\rspi_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\rtc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\scif_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\scim_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\scux_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\sdg_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\spdif_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\spibsc_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\ssif_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\usb20_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\vdc5_iodefine.h" />
+    <ClInclude Include="drivers\inc\iodefines\wdt_iodefine.h" />
+    <ClInclude Include="drivers\rtc\inc\devdrv_rtc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <SolidMemoryMapCompile Include="drivers\memory_map.smm" />
+  </ItemGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+</Project>

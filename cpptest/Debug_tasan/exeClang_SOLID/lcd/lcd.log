@@ -1,0 +1,15 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\lcd\lcd.tlog\lcd.lastbuilddate" のタッチ タスクを実行しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\lcd\lcd.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\lcd\lcd_panel\lcd_lcd_kit_b01_ch1.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\lcd\lcd_panel\lcd_lcd_kit_b01_ch0.c
+Lib:
+	lcd.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\liblcd.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\lcd\lcd.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_tasan\exeClang_SOLID\lcd\lcd.tlog\lcd.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:02.2501375
+
+ビルドに成功しました。

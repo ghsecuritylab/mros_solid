@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <LWIPRootDir>$(MSBuildThisFileDirectory)lwIP\</LWIPRootDir>
+    <LWIPInc>$(LWIPRootDir);$(LWIPRootDir)lwIP\src;$(LWIPRootDir)lwIP\src\include;$(LWIPRootDir)lwIP\ports\solid\asp3\include;$(LWIPRootDir)lwIP\ports\solid\common\include</LWIPInc>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="LWIPRootDir"/>
+    <BuildMacro Include="LWIPInc"/>
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(SOLID_USE_LWIP)'=='1' AND '$(SOLID_USE_TOPPERS_ASP3)'=='1'">
+    <ClCompile>
+      <exeGCC_PreprocessorDefinitions>NET_REQUIRES_RTOS;%(exeGCC_PreprocessorDefinitions)</exeGCC_PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(SOLID_USE_LWIP)'=='1'">
+    <ClCompile>
+      <exeGCC_PreprocessorDefinitions>AP_RZA_1A_LCD_DEMO;DEMO_USE_NET;%(exeGCC_PreprocessorDefinitions)</exeGCC_PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(LWIPInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(SOLID_USE_LWIP)'=='1' AND '$(SOLID_LOADABLE_APP)'==''" >
+    <Link>
+      <exeGCC_AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)lwIP\lib\$(exeGCC_specs)\$(LibConfig);%(exeGCC_AdditionalLibraryDirectories)</exeGCC_AdditionalLibraryDirectories>
+      <exeGCC_Archives>-lnet;%(exeGCC_Archives)</exeGCC_Archives>
+      <exeClang_Archives>-lnet;%(exeClang_Archives)</exeClang_Archives>
+	  <AdditionalOptions>-Wl,--undefined=SOLID_NET_IF_Init -Wl,--undefined=SOLID_NET_start_network -Wl,--undefined=lwip_thread_task %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(SOLID_USE_LWIP)'=='1' AND '$(SOLID_LOADABLE_APP)'=='1'">
+    <SolidELF>
+      <ImportSymbolListFiles>$(MSBuildThisFileDirectory)lwIP\exports.txt;%(ImportSymbolListFiles)</ImportSymbolListFiles>
+    </SolidELF>
+  </ItemDefinitionGroup>
+</Project>

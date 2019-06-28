@@ -1,0 +1,17 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_clang\exeClang_SOLID\cpptest\reports\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Debug_clang\exeClang_SOLID\cpptest\reports\cpptest.tlog\" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\goodbye.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\hello.cpp
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\hello.cpp(21,19): warning : Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char'
+	        dq = (intptr_t *)malloc(sizeof(char)*4);
+	              ~~~~~~~~~~ ^~~~~~ ~~~~~~~~~~~~
+	1 warning generated.
+
+ElapsedTime : 00:00:02.0594824
+
+ビルドに成功しました。

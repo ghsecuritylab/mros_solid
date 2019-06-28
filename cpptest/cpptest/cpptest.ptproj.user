@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'">
+    <PartnerDebugEngineArguments>-XG</PartnerDebugEngineArguments>
+    <PartnerDebugEngineCfgDirectory>$(SolutionDir)partner</PartnerDebugEngineCfgDirectory>
+    <PartnerDebugEngineInitMcrDirectory>$(SolutionDir)partner</PartnerDebugEngineInitMcrDirectory>
+    <PartnerDebugEngineEntryPoint>solid_start</PartnerDebugEngineEntryPoint>
+    <PartnerDebugEngineLoadingOption>LoadSymbolOnly</PartnerDebugEngineLoadingOption>
+    <PartnerDebugEngineSWBreakpointOption>LateBinding</PartnerDebugEngineSWBreakpointOption>
+    <PartnerLauncherArguments>-XG</PartnerLauncherArguments>
+    <PartnerLauncherProjectDirectory>$(SolutionDir)partner</PartnerLauncherProjectDirectory>
+    <PartnerLauncherInitMcrDirectory>$(SolutionDir)partner</PartnerLauncherInitMcrDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'">
+    <PartnerDebugEngineArguments>-XG</PartnerDebugEngineArguments>
+    <PartnerDebugEngineCfgDirectory>$(SolutionDir)partner</PartnerDebugEngineCfgDirectory>
+    <PartnerDebugEngineInitMcrDirectory>$(SolutionDir)partner</PartnerDebugEngineInitMcrDirectory>
+    <PartnerDebugEngineEntryPoint>solid_start</PartnerDebugEngineEntryPoint>
+    <PartnerDebugEngineLoadingOption>LoadSymbolOnly</PartnerDebugEngineLoadingOption>
+    <PartnerDebugEngineSWBreakpointOption>LateBinding</PartnerDebugEngineSWBreakpointOption>
+    <PartnerLauncherArguments>-XG</PartnerLauncherArguments>
+    <PartnerLauncherProjectDirectory>$(SolutionDir)partner</PartnerLauncherProjectDirectory>
+    <PartnerLauncherInitMcrDirectory>$(SolutionDir)partner</PartnerLauncherInitMcrDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'">
+    <PartnerDebugEngineArguments>-XG</PartnerDebugEngineArguments>
+    <PartnerDebugEngineCfgDirectory>$(SolutionDir)partner</PartnerDebugEngineCfgDirectory>
+    <PartnerDebugEngineInitMcrDirectory>$(SolutionDir)partner</PartnerDebugEngineInitMcrDirectory>
+    <PartnerDebugEngineEntryPoint>solid_start</PartnerDebugEngineEntryPoint>
+    <PartnerDebugEngineLoadingOption>LoadSymbolOnly</PartnerDebugEngineLoadingOption>
+    <PartnerDebugEngineSWBreakpointOption>LateBinding</PartnerDebugEngineSWBreakpointOption>
+    <PartnerLauncherArguments>-XG</PartnerLauncherArguments>
+    <PartnerLauncherProjectDirectory>$(SolutionDir)partner</PartnerLauncherProjectDirectory>
+    <PartnerLauncherInitMcrDirectory>$(SolutionDir)partner</PartnerLauncherInitMcrDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'">
+    <PartnerDebugEngineArguments>-XG</PartnerDebugEngineArguments>
+    <PartnerDebugEngineCfgDirectory>$(SolutionDir)partner</PartnerDebugEngineCfgDirectory>
+    <PartnerDebugEngineInitMcrDirectory>$(SolutionDir)partner</PartnerDebugEngineInitMcrDirectory>
+    <PartnerDebugEngineEntryPoint>solid_start</PartnerDebugEngineEntryPoint>
+    <PartnerDebugEngineLoadingOption>LoadSymbolOnly</PartnerDebugEngineLoadingOption>
+    <PartnerDebugEngineSWBreakpointOption>LateBinding</PartnerDebugEngineSWBreakpointOption>
+    <PartnerLauncherArguments>-XG</PartnerLauncherArguments>
+    <PartnerLauncherProjectDirectory>$(SolutionDir)partner</PartnerLauncherProjectDirectory>
+    <PartnerLauncherInitMcrDirectory>$(SolutionDir)partner</PartnerLauncherInitMcrDirectory>
+  </PropertyGroup>
+</Project>

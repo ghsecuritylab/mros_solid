@@ -1,0 +1,35 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest\cpptest.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest\cpptest.tlog\cpptest.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest\cpptest.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\hello.cpp
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.h(5):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\Main.c(2):
+C:\ProgramData\KMC\SOLID\SDK\2.0\solid-os\rtos\toppers_asp3\asp3\config\kernel_cfg_intl.h(21,14): warning : '_kernel_stack_NET_TASK1' defined but not used [-Wunused-variable]
+	 static STK_T _kernel_stack_NET_TASK1[COUNT_STK_T(KCFG_NET_STACK_SIZE)];
+	              ^~~~~~~~~~~~~~~~~~~~~~~
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.h(5):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\hello.cpp(2):
+C:\ProgramData\KMC\SOLID\SDK\2.0\solid-os\rtos\toppers_asp3\asp3\config\kernel_cfg_intl.h(21,14): warning : '_kernel_stack_NET_TASK1' defined but not used [-Wunused-variable]
+	 static STK_T _kernel_stack_NET_TASK1[COUNT_STK_T(KCFG_NET_STACK_SIZE)];
+	              ^~~~~~~~~~~~~~~~~~~~~~~
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.h(5):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\cpptest\kernel_cfg.c(4):
+C:\ProgramData\KMC\SOLID\SDK\2.0\solid-os\rtos\toppers_asp3\asp3\config\kernel_cfg_intl.h(21,14): warning : '_kernel_stack_NET_TASK1' defined but not used [-Wunused-variable]
+	 static STK_T _kernel_stack_NET_TASK1[COUNT_STK_T(KCFG_NET_STACK_SIZE)];
+	              ^~~~~~~~~~~~~~~~~~~~~~~
+Link:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\cpptest\cpptest_all.o: In function `.LANCHOR0':
+	Main.c:(.rodata+0x2b0): undefined reference to `hello_taskcollect2.exe: error: ld returned 1 exit status
+	'
+プロジェクト "cpptest.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:04.3768053
+
+ビルドに失敗しました。

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LibCPU>Cortex-A9</LibCPU>
+    <LibEndian>Little</LibEndian>
+  </PropertyGroup>
+  <PropertyGroup>
+    <_PropertySheetDisplayName>ALPHA PROJECT AP-RZA</_PropertySheetDisplayName>
+    <BSPName>AP-RZA-StarterKit</BSPName>
+    <BSPRootDir>$(MSBuildThisFileDirectory)$(BSPName)\</BSPRootDir>
+    <BSPDrvDir>$(BSPRootDir)drivers\</BSPDrvDir>
+    <BSPIncPath>$(BSPDrvDir);$(BSPDrvDir)inc;$(BSPDrvDir)common/inc;$(BSPDrvDir)jcu/inc;$(BSPDrvDir)lcd;$(BSPDrvDir)ospl/inc;$(BSPDrvDir)riic/inc;$(BSPDrvDir)rtc/inc;$(BSPDrvDir)vdc5/include;$(BSPDrvDir)vdec/include</BSPIncPath>
+    <SOLID_MEMORY_MAP_FILE Condition="'$(SOLID_MEMORY_MAP_FILE)' == ''">$(BSPDrvDir)memory_map.smm</SOLID_MEMORY_MAP_FILE>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <exeGCC_AdditionalLibraryDirectories>$(BSPDrvDir);%(exeGCC_AdditionalLibraryDirectories)</exeGCC_AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(SOLIDBootProject)'==''">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(BSPIncPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Assemble>
+      <AdditionalIncludeDirectories>$(BSPIncPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Assemble>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(SOLIDBootProject)'=='' AND '$(SOLID_LOADABLE_APP)'==''">
+    <Link>
+      <exeGCC_Archives>-lbsp;-ljcu;-llcd;-lospl;-lriic;-lvdc5;%(exeGCC_Archives)</exeGCC_Archives>
+      <exeClang_Archives>-lbsp;-ljcu;-llcd;-lospl;-lriic;-lvdc5;%(exeClang_Archives)</exeClang_Archives>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Condition="exists('$(SOLIDRootDir)bsp\$(BSPName)\lib')" Project="$(SOLIDRootDir)bsp\$(BSPName)\lib\*.props" />
+</Project>

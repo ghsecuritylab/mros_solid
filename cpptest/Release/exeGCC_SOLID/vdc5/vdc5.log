@@ -1,0 +1,38 @@
+PrepareForBuild:
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\" を作成しています。
+	ディレクトリ "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\vdc5.tlog\" を作成しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\vdc5.tlog\vdc5.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\vdc5.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_check_parameter.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_interrupt.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c
+	In file included from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl.h(41):0,
+	                 from C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c(39):
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1164,1): warning : multi-line comment [-Wcomment]
+	 \\#define  R_STATIC_ASSERT( ConstantExpression, StringLiteral ) \
+	 ^
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\ospl\inc\r_ospl_typedef.h(1179,1): warning : multi-line comment [-Wcomment]
+	 \\#define R_STATIC_ASSERT_GLOBAL(ConstantExpression, StringLiteral)          \
+	 ^
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c: In function 'SetRwProcAbility_Write_0':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c(3345,37): warning : variable 'dummy_read' set but not used [-Wunused-but-set-variable]
+	     volatile uint32_t               dummy_read;
+	                                     ^~~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c: In function 'SetRwProcAbility_Write_1':
+C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c(3383,37): warning : variable 'dummy_read' set but not used [-Wunused-but-set-variable]
+	     volatile uint32_t               dummy_read;
+	                                     ^~~~~~~~~~
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register_address.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_shared_param.c
+Lib:
+	vdc5.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\libvdc5.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\vdc5.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\cpptest\Release\exeGCC_SOLID\vdc5\vdc5.tlog\vdc5.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:07.1391257
+
+ビルドに成功しました。
