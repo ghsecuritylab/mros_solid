@@ -1,0 +1,25 @@
+_PrepareForClean:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\ospl\ospl.tlog\ospl.lastbuilddate" を削除しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\ospl\ospl.tlog\ospl.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\ospl\ospl.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\DebugBreak.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_debug.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\locking.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_memory.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_ftimer.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\inline_body.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\mcu_interrupts.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_RTX.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\porting\r_ospl_unrecoverable.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\ospl\src\r_ospl.c
+Lib:
+	ospl.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\libospl.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\ospl\ospl.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\ospl\ospl.tlog\ospl.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:06.1340565
+
+ビルドに成功しました。

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Solution Configuration</_PropertySheetDisplayName>
+
+    <AppBinName>mros_002</AppBinName>
+
+    <SOLIDRootDir>C:\ProgramData\KMC\SOLID\SDK\2.0\solid-os\</SOLIDRootDir>
+    <SOLIDVersion>2.0</SOLIDVersion>
+    <SOLID_USE_FATFS>0</SOLID_USE_FATFS>
+    <SOLID_USE_LWIP>1</SOLID_USE_LWIP>
+    <SOLID_USE_TOPPERS_ASP3>1</SOLID_USE_TOPPERS_ASP3>
+
+    <SOLID_MEMORY_MAP_FILE Condition="exists('$(SolutionDir)memory_map.smm')">$(SolutionDir)memory_map.smm</SOLID_MEMORY_MAP_FILE>
+
+    <!-- SOLID.Specs.props -->
+    <!-- Set up by BSP. -->
+    <!-- <LibCPU>ARMV7A</LibCPU> -->
+    <!-- <LibEndian>Little</LibEndian> -->
+    <LibCode>ARM</LibCode>
+    <!-- Set up by Project. -->
+    <LibVLINK>true</LibVLINK>
+    <LibFloatingPoint>soft</LibFloatingPoint>
+
+    <!-- Kernel -->
+    <LibDynamicCreate>false</LibDynamicCreate>
+
+    <!-- EventTracker -->
+    <!-- <LibEventTracker>false</LibEventTracker> -->
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)bsp\AP-RZA-StarterKit.props" />
+    <Import Project="$(SOLIDRootDir)SOLID.Common.props" />
+  </ImportGroup>
+</Project>

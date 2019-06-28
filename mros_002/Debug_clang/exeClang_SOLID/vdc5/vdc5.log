@@ -1,0 +1,21 @@
+_PrepareForClean:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\vdc5\vdc5.tlog\vdc5.lastbuilddate" を削除しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\vdc5\vdc5.tlog\vdc5.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\vdc5\vdc5.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_check_parameter.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_interrupt.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_register_address.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\vdc5\src\r_vdc5_shared_param.c
+Lib:
+	vdc5.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\libvdc5.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\vdc5\vdc5.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\vdc5\vdc5.tlog\vdc5.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:05.1679805
+
+ビルドに成功しました。

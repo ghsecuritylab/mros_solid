@@ -1,0 +1,20 @@
+_PrepareForClean:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" を削除しています。
+InitializeBuildStatus:
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" を作成しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_api.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_reg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\jcu\porting\jcu_pl.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\jcu\jcu_driver\jcu_para.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\jcu\userdef\jcu_user.c
+Lib:
+	jcu.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\libjcu.a
+FinalizeBuildStatus:
+	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\unsuccessfulbuild" を削除しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\jcu\jcu.tlog\jcu.lastbuilddate" のタッチ タスクを実行しています。
+
+ElapsedTime : 00:00:03.4680582
+
+ビルドに成功しました。

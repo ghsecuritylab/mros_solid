@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c" />
+    <ClCompile Include="kernel_cfg.c" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="mros.cpp" />
+    <ClCompile Include="ros.cpp" />
+    <ClCompile Include="userapp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kernel_cfg.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="mros.h" />
+    <ClInclude Include="ros.h" />
+    <ClInclude Include="userapp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <SolidMemoryMapCompile Include="..\memory_map.smm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\solid_cs.ld" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="drivers\bsp_globals.c" />
+    <ClCompile Include="drivers\common_settings\rza_io_regrw.c">
+      <Filter>common_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\impl_cs_event.c" />
+    <ClCompile Include="drivers\impl_diskio.c" />
+    <ClCompile Include="drivers\impl_dmac.c" />
+    <ClCompile Include="drivers\impl_iores.c" />
+    <ClCompile Include="drivers\impl_log.c" />
+    <ClCompile Include="drivers\impl_mem_conf.c" />
+    <ClCompile Include="drivers\impl_mon.c" />
+    <ClCompile Include="drivers\impl_net_dev_ether.c" />
+    <ClCompile Include="drivers\impl_net_dev_getconfig.c" />
+    <ClCompile Include="drivers\impl_net_dev_get_macaddr.c" />
+    <ClCompile Include="drivers\impl_rtc.c" />
+    <ClCompile Include="drivers\impl_sd_spi.c" />
+    <ClCompile Include="drivers\impl_timer.c" />
+    <ClCompile Include="drivers\impl_uart.c" />
+    <ClCompile Include="drivers\led\led.c">
+      <Filter>led</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drivers\impl_gpio.h" />
+    <ClInclude Include="drivers\inc\dev_drv.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\adc_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\bsc_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\cpg_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\dmac_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\dmac_rm_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\gpio_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\intc_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\mtu2_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\ostm_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\pfv_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\riic_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\rspi_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\rtc_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\scif_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\spibsc_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iobitmasks\usb_iobitmask.h">
+      <Filter>inc\iobitmasks</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\adc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\bsc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\ceu_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\cpg_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\disc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\dmac_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\dvdec_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\ether_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\flctl_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\gpio_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\ieb_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\inb_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\intc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\irda_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\jcu_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\l2c_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\lin_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\lvds_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\mlb_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\mmc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\mtu2_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\ostm_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\pfv_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\pwm_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\riic_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\romdec_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\rscan0_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\rspi_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\rtc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\scif_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\scim_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\scux_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\sdg_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\spdif_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\spibsc_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\ssif_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\usb20_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\vdc5_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\iodefines\wdt_iodefine.h">
+      <Filter>inc\iodefines</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\led.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\Project_Config.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\Project_Config_Sub.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\rza_io_regrw.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\inc\r_typedefs.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\rtc\inc\devdrv_rtc.h">
+      <Filter>rtc\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <SolidMemoryMapCompile Include="drivers\$memorymap_name$.smm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common_settings">
+      <UniqueIdentifier>{7d61ef3f-58ef-4161-8879-8fa7cf781982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{b28a1f1d-65eb-4d6a-b8f0-87faeb943df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\iobitmasks">
+      <UniqueIdentifier>{30b89a0a-4242-4665-93fc-5be5dc99bc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\iodefines">
+      <UniqueIdentifier>{185ce7e4-1e64-47ff-8377-ef63bfd01cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="led">
+      <UniqueIdentifier>{8c5e81be-e835-444d-8eb3-f9663a8375ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtc">
+      <UniqueIdentifier>{e590ed92-331a-434b-882c-9bca400db859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtc\inc">
+      <UniqueIdentifier>{da6d1e52-46d1-458a-ba74-66629b36438f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

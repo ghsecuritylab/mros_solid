@@ -1,0 +1,13 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\boot\boot.tlog\boot.lastbuilddate" のタッチ タスクを実行しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\boot\boot.tlog\unsuccessfulbuild" を作成しています。
+ClCompile:
+	すべての出力が最新のものです。
+PartialLink:
+	すべての出力が最新のものです。
+clang++.exe : error : no such file or directory: 'C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002.bin'
+プロジェクト "boot.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:00.7595543
+
+ビルドに失敗しました。

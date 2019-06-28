@@ -1,0 +1,20 @@
+ClCompile:
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\Main.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\mros.cpp
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\kernel_cfg.c
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\ros.cpp
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\userapp.cpp
+C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\mros.cpp(9,18): warning : Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char'
+	        dq = (intptr_t*)malloc(sizeof(char)*4);
+	              ~~~~~~~~~ ^~~~~~ ~~~~~~~~~~~~
+	1 warning generated.
+C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\ros.cpp(69,12): error : cannot initialize a variable of type '__intptr_t *' (aka 'int *') with an rvalue of type '__intptr_t' (aka 'int')
+	        intptr_t *pdq = (intptr_t) &pbuf;
+	                  ^     ~~~~~~~~~~~~~~~~
+	1 error generated.
+プロジェクト "mros_002.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:02.8990602
+
+ビルドに失敗しました。

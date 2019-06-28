@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_clang|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_clang</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_tasan|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug_tasan</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|KMC_SOLID_v7A_ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|KMC_SOLID_v7A_ARM">
+      <Configuration>Release</Configuration>
+      <Platform>KMC_SOLID_v7A_ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{661172fd-3718-4adb-b5b5-622ba63f584c}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeClang_SOLID</PlatformToolset>
+    <LibOptimize>Sanitizer</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Debug</LibOptimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>exeGCC_SOLID</PlatformToolset>
+    <LibOptimize>Release</LibOptimize>
+  </PropertyGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup>
+    <Import Project="$(SolutionDir)$(SolutionName).props" Condition="exists('$(SolutionDir)$(SolutionName).props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\KMC.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\KMC.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'">
+    <TargetName>libvdc5</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'">
+    <TargetName>libvdc5</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'">
+    <TargetName>libvdc5</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'">
+    <TargetName>libvdc5</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_clang|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_tasan|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|KMC_SOLID_v7A_ARM'"></ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="vdc5\src\r_vdc5.c" />
+    <ClCompile Include="vdc5\src\r_vdc5_check_parameter.c" />
+    <ClCompile Include="vdc5\src\r_vdc5_interrupt.c" />
+    <ClCompile Include="vdc5\src\r_vdc5_register.c" />
+    <ClCompile Include="vdc5\src\r_vdc5_register_address.c" />
+    <ClCompile Include="vdc5\src\r_vdc5_shared_param.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vdc5\include\r_vdc5.h" />
+    <ClInclude Include="vdc5\include\r_vdc5_user.h" />
+    <ClInclude Include="vdc5\src\r_vdc5_check_parameter.h" />
+    <ClInclude Include="vdc5\src\r_vdc5_register.h" />
+    <ClInclude Include="vdc5\src\r_vdc5_shared_param.h" />
+  </ItemGroup>
+  <Import Project="$(KMCTargetsPath)\KMC.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+</Project>

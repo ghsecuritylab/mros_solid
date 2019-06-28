@@ -1,0 +1,21 @@
+InitializeBuildStatus:
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\mros_002.lastbuilddate" のタッチ タスクを実行しています。
+	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+SolidMemoryMapCompile:
+	すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "SolidMemoryMapCompile" を省略します。
+ClCompile:
+	すべての出力が最新のものです。
+	すべての出力が最新のものです。
+	すべての出力が最新のものです。
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\ros.cpp
+	すべての出力が最新のものです。
+	すべての出力が最新のものです。
+C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\ros.cpp(66,12): error : cannot initialize a variable of type '__intptr_t *' (aka 'int *') with an rvalue of type '__intptr_t' (aka 'int')
+	        intptr_t *pdq = (intptr_t) &pbuf;
+	                  ^     ~~~~~~~~~~~~~~~~
+	1 error generated.
+プロジェクト "mros_002.ptproj" のビルドが終了しました -- 失敗。
+
+ElapsedTime : 00:00:01.0823268
+
+ビルドに失敗しました。
