@@ -12,10 +12,13 @@
 void hello_task(intptr_t exinf)
 {
 	//ros::init ok
+	std::string topic1 = "mros_test_topic";
+	ros::init(topic1);
 
-	ros::init("mros_test_node");
-	//NodeHandleのオブジェクトつくる
-	//advertise
+	//NodeHandleのオブジェクトつくる	:ok
+	ros::NodeHandle n;
+	//advertise		
+	ros::Publisher chatter_pub = n.advertise(topic1,1);
 	std::string pstr;
 	pstr = "<methodCall>registerPublisher</methodCall>\n";
 
