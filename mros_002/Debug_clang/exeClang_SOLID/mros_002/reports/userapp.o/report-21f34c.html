@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<title>C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/userapp.cpp</title>
+<style type="text/css">
+ body { color:#000000; background-color:#ffffff }
+ body { font-family:Helvetica, sans-serif; font-size:10pt }
+ h1 { font-size:14pt }
+ .FileName { margin-top: 5px; margin-bottom: 5px; display: inline; }
+ .FileNav { margin-left: 5px; margin-right: 5px; display: inline; }
+ .FileNav a { text-decoration:none; font-size: larger; }
+ .divider { margin-top: 30px; margin-bottom: 30px; height: 15px; }
+ .divider { background-color: gray; }
+ .code { border-collapse:collapse; width:100%; }
+ .code { font-family: "Monospace", monospace; font-size:10pt }
+ .code { line-height: 1.2em }
+ .comment { color: green; font-style: oblique }
+ .keyword { color: blue }
+ .string_literal { color: red }
+ .directive { color: darkmagenta }
+ .expansion { display: none; }
+ .macro:hover .expansion { display: block; border: 2px solid #FF0000; padding: 2px; background-color:#FFF0F0; font-weight: normal;   -webkit-border-radius:5px;  -webkit-box-shadow:1px 1px 7px #000;   border-radius:5px;  box-shadow:1px 1px 7px #000; position: absolute; top: -1em; left:10em; z-index: 1 } 
+ .macro { color: darkmagenta; background-color:LemonChiffon; position: relative }
+ .num { width:2.5em; padding-right:2ex; background-color:#eeeeee }
+ .num { text-align:right; font-size:8pt }
+ .num { color:#444444 }
+ .line { padding-left: 1ex; border-left: 3px solid #ccc }
+ .line { white-space: pre }
+ .msg { -webkit-box-shadow:1px 1px 7px #000 }
+ .msg { box-shadow:1px 1px 7px #000 }
+ .msg { -webkit-border-radius:5px }
+ .msg { border-radius:5px }
+ .msg { font-family:Helvetica, sans-serif; font-size:8pt }
+ .msg { float:left }
+ .msg { padding:0.25em 1ex 0.25em 1ex }
+ .msg { margin-top:10px; margin-bottom:10px }
+ .msg { font-weight:bold }
+ .msg { max-width:60em; word-wrap: break-word; white-space: pre-wrap }
+ .msgT { padding:0x; spacing:0x }
+ .msgEvent { background-color:#fff8b4; color:#000000 }
+ .msgControl { background-color:#bbbbbb; color:#000000 }
+ .msgNote { background-color:#ddeeff; color:#000000 }
+ .mrange { background-color:#dfddf3 }
+ .mrange { border-bottom:1px solid #6F9DBE }
+ .PathIndex { font-weight: bold; padding:0px 5px; margin-right:5px; }
+ .PathIndex { -webkit-border-radius:8px }
+ .PathIndex { border-radius:8px }
+ .PathIndexEvent { background-color:#bfba87 }
+ .PathIndexControl { background-color:#8c8c8c }
+ .PathNav a { text-decoration:none; font-size: larger }
+ .CodeInsertionHint { font-weight: bold; background-color: #10dd10 }
+ .CodeRemovalHint { background-color:#de1010 }
+ .CodeRemovalHint { border-bottom:1px solid #6F9DBE }
+ .selected{ background-color:orange !important; }
+ table.simpletable {
+   padding: 5px;
+   font-size:12pt;
+   margin:20px;
+   border-collapse: collapse; border-spacing: 0px;
+ }
+ td.rowname {
+   text-align: right;
+   vertical-align: top;
+   font-weight: bold;
+   color:#444444;
+   padding-right:2ex;
+ }
+</style>
+</head>
+<body>
+<!-- BUGDESC Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char' -->
+
+<!-- BUGTYPE Allocator sizeof operand mismatch -->
+
+<!-- BUGCATEGORY Unix API -->
+
+<!-- BUGFILE C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/userapp.cpp -->
+
+<!-- FILENAME userapp.cpp -->
+
+<!-- FUNCTIONNAME hello_task -->
+
+<!-- ISSUEHASHCONTENTOFLINEINCONTEXT 4f8ee36e41066955e26b75f7835eddfd -->
+
+<!-- BUGLINE 44 -->
+
+<!-- BUGCOLUMN 19 -->
+
+<!-- BUGPATHLENGTH 1 -->
+
+<!-- BUGMETAEND -->
+<!-- REPORTHEADER -->
+<h3>Bug Summary</h3>
+<table class="simpletable">
+<tr><td class="rowname">File:</td><td>C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/userapp.cpp</td></tr>
+<tr><td class="rowname">Warning:</td><td><a href="#EndPath">line 44, column 19</a><br />Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char'</td></tr>
+
+</table>
+<!-- REPORTSUMMARYEXTRA -->
+<h3>Annotated Source Code</h3>
+<p><span class='macro'>[?]
+  <span class='expansion'>Use j/k keys for keyboard navigation</span>
+</span></p>
+
+<script type='text/javascript'>
+var digitMatcher = new RegExp("[0-9]+");
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".PathNav > a").forEach(
+        function(currentValue, currentIndex) {
+            var hrefValue = currentValue.getAttribute("href");
+            currentValue.onclick = function() {
+                scrollTo(document.querySelector(hrefValue));
+                return false;
+            };
+        });
+});
+
+var findNum = function() {
+    var s = document.querySelector(".selected");
+    if (!s || s.id == "EndPath") {
+        return 0;
+    }
+    var out = parseInt(digitMatcher.exec(s.id)[0]);
+    return out;
+};
+
+var scrollTo = function(el) {
+    document.querySelectorAll(".selected").forEach(function(s) {
+        s.classList.remove("selected");
+    });
+    el.classList.add("selected");
+    window.scrollBy(0, el.getBoundingClientRect().top -
+        (window.innerHeight / 2));
+}
+
+var move = function(num, up, numItems) {
+  if (num == 1 && up || num == numItems - 1 && !up) {
+    return 0;
+  } else if (num == 0 && up) {
+    return numItems - 1;
+  } else if (num == 0 && !up) {
+    return 1 % numItems;
+  }
+  return up ? num - 1 : num + 1;
+}
+
+var numToId = function(num) {
+  if (num == 0) {
+    return document.getElementById("EndPath")
+  }
+  return document.getElementById("Path" + num);
+};
+
+var navigateTo = function(up) {
+  var numItems = document.querySelectorAll(".line > .msg").length;
+  var currentSelected = findNum();
+  var newSelected = move(currentSelected, up, numItems);
+  var newEl = numToId(newSelected, numItems);
+
+  // Scroll element into center.
+  scrollTo(newEl);
+};
+
+window.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented) {
+    return;
+  }
+  if (event.key == "j") {
+    navigateTo(/*up=*/false);
+  } else if (event.key == "k") {
+    navigateTo(/*up=*/true);
+  } else {
+    return;
+  } 
+  event.preventDefault();
+}, true);
+</script>
+  <table class="code">
+<tr><td class="num" id="LN1">1</td><td class="line">﻿</td></tr>
+<tr><td class="num" id="LN2">2</td><td class="line"><span class='directive'>#include &lt;iostream&gt;</span></td></tr>
+<tr><td class="num" id="LN3">3</td><td class="line"><span class='comment'>//iostreamをインクルードすると，solid_endがe0000-&gt;f0000に増えた</span></td></tr>
+<tr><td class="num" id="LN4">4</td><td class="line"><span class='directive'>#include &lt;stdlib.h&gt;</span></td></tr>
+<tr><td class="num" id="LN5">5</td><td class="line"><span class='comment'>//標準ライブラリの予約語alignがt_stddef.hで定義されてしまったから，ダメだった．</span></td></tr>
+<tr><td class="num" id="LN6">6</td><td class="line"><span class='comment'>//標準ライブラリを先にインクルードすればおｋ</span></td></tr>
+<tr><td class="num" id="LN7">7</td><td class="line"><span class='directive'>#include &lt;syslog.h&gt;</span></td></tr>
+<tr><td class="num" id="LN8">8</td><td class="line"></td></tr>
+<tr><td class="num" id="LN9">9</td><td class="line"><span class='directive'>#include "userapp.h"</span></td></tr>
+<tr><td class="num" id="LN10">10</td><td class="line"><span class='directive'>#include "ros.h"</span></td></tr>
+<tr><td class="num" id="LN11">11</td><td class="line"><span class='comment'>//hello_taskが今回の</span></td></tr>
+<tr><td class="num" id="LN12">12</td><td class="line"><span class='keyword'>void</span> hello_task(<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> exinf)</td></tr>
+<tr><td class="num" id="LN13">13</td><td class="line">{</td></tr>
+<tr><td class="num" id="LN14">14</td><td class="line">	<span class='comment'>//ros::init ok</span></td></tr>
+<tr><td class="num" id="LN15">15</td><td class="line">	std::string topic1 = <span class='string_literal'>"mros_test_topic"</span>;</td></tr>
+<tr><td class="num" id="LN16">16</td><td class="line">	ros::init(topic1);</td></tr>
+<tr><td class="num" id="LN17">17</td><td class="line"></td></tr>
+<tr><td class="num" id="LN18">18</td><td class="line">	<span class='comment'>//NodeHandleのオブジェクトつくる	:ok</span></td></tr>
+<tr><td class="num" id="LN19">19</td><td class="line">	ros::NodeHandle n;</td></tr>
+<tr><td class="num" id="LN20">20</td><td class="line">	<span class='comment'>//advertise		</span></td></tr>
+<tr><td class="num" id="LN21">21</td><td class="line">	ros::Publisher chatter_pub = n.advertise(topic1,1);</td></tr>
+<tr><td class="num" id="LN22">22</td><td class="line">	std::string pstr;</td></tr>
+<tr><td class="num" id="LN23">23</td><td class="line">	pstr = <span class='string_literal'>"&lt;methodCall&gt;registerPublisher&lt;/methodCall&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN24">24</td><td class="line"></td></tr>
+<tr><td class="num" id="LN25">25</td><td class="line">	<span class='comment'>//syslog(LOG_INFO,"vi_size:%d",vi.size());</span></td></tr>
+<tr><td class="num" id="LN26">26</td><td class="line">	</td></tr>
+<tr><td class="num" id="LN27">27</td><td class="line">	<span class='comment'>//問題のpush_back</span></td></tr>
+<tr><td class="num" id="LN28">28</td><td class="line">	std::vector&lt;std::string&gt; v;</td></tr>
+<tr><td class="num" id="LN29">29</td><td class="line">	std::string str = <span class='string_literal'>"test"</span>;</td></tr>
+<tr><td class="num" id="LN30">30</td><td class="line">	v.push_back(str);</td></tr>
+<tr><td class="num" id="LN31">31</td><td class="line">	std::cout &lt;&lt; v[0] &lt;&lt; std::endl;</td></tr>
+<tr><td class="num" id="LN32">32</td><td class="line"></td></tr>
+<tr><td class="num" id="LN33">33</td><td class="line">	<span class='comment'>//int argc = 0;</span></td></tr>
+<tr><td class="num" id="LN34">34</td><td class="line">	<span class='comment'>//char *argv = NULL;</span></td></tr>
+<tr><td class="num" id="LN35">35</td><td class="line">	<span class='comment'>//ros::init(argc,argv,str);</span></td></tr>
+<tr><td class="num" id="LN36">36</td><td class="line">	<span class='comment'>/*</span></td></tr>
+<tr><td class="num" id="LN37">37</td><td class="line">	<span class='comment'>std::string str("test");</span></td></tr>
+<tr><td class="num" id="LN38">38</td><td class="line">	<span class='comment'>std::vector&lt;int&gt; test(3);</span></td></tr>
+<tr><td class="num" id="LN39">39</td><td class="line">	<span class='comment'>test.push_back(1);</span></td></tr>
+<tr><td class="num" id="LN40">40</td><td class="line">	<span class='comment'>*/</span></td></tr>
+<tr><td class="num" id="LN41">41</td><td class="line"></td></tr>
+<tr><td class="num" id="LN42">42</td><td class="line">	<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> *dq;</td></tr>
+<tr><td class="num" id="LN43">43</td><td class="line">	<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> *dqq;</td></tr>
+<tr><td class="num" id="LN44">44</td><td class="line">	dq = (<span class="mrange"><span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> *</span>)<span class="mrange">malloc</span>(<span class="mrange"><span class='keyword'>sizeof</span>(<span class='keyword'>char</span>)</span> * 10); <span class='comment'>//コード分析で怒られはするけれどビルドは通る</span></td></tr>
+<tr><td class="num"></td><td class="line"><div id="EndPath" class="msg msgEvent" style="margin-left:26ex; max-width:30em">Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char'</div></td></tr>
+<tr><td class="num" id="LN45">45</td><td class="line">	dqq = (<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> *)malloc(<span class='keyword'>sizeof</span>(<span class='keyword'>char</span>) * 10);</td></tr>
+<tr><td class="num" id="LN46">46</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"start receive data queue\n"</span>);</td></tr>
+<tr><td class="num" id="LN47">47</td><td class="line"></td></tr>
+<tr><td class="num" id="LN48">48</td><td class="line">	rcv_dtq(DTQ_ID, dq);   <span class='comment'>//origin mrosの方式</span></td></tr>
+<tr><td class="num" id="LN49">49</td><td class="line">	rcv_dtq(DTQ_IDD, dqq); <span class='comment'>//int型が送られてくるはず</span></td></tr>
+<tr><td class="num" id="LN50">50</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"received data queue\n"</span>);</td></tr>
+<tr><td class="num" id="LN51">51</td><td class="line">	<span class='keyword'>unsigned</span> <span class='keyword'>char</span> *mros_dq;</td></tr>
+<tr><td class="num" id="LN52">52</td><td class="line">	<span class='keyword'>unsigned</span> <span class='keyword'>int</span> *idq;</td></tr>
+<tr><td class="num" id="LN53">53</td><td class="line">	mros_dq = (<span class='keyword'>unsigned</span> <span class='keyword'>char</span> *)dq;</td></tr>
+<tr><td class="num" id="LN54">54</td><td class="line">	idq = (<span class='keyword'>unsigned</span> <span class='keyword'>int</span> *)dqq;</td></tr>
+<tr><td class="num" id="LN55">55</td><td class="line"></td></tr>
+<tr><td class="num" id="LN56">56</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"answer is 2000 but idq[i]:%d"</span>, idq[0]);</td></tr>
+<tr><td class="num" id="LN57">57</td><td class="line"></td></tr>
+<tr><td class="num" id="LN58">58</td><td class="line">	<span class='keyword'>int</span> size = mros_dq[1];</td></tr>
+<tr><td class="num" id="LN59">59</td><td class="line">	size += mros_dq[2] * 256;</td></tr>
+<tr><td class="num" id="LN60">60</td><td class="line">	size += mros_dq[3] * 65536;</td></tr>
+<tr><td class="num" id="LN61">61</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"size:%d"</span>, size);</td></tr>
+<tr><td class="num" id="LN62">62</td><td class="line"></td></tr>
+<tr><td class="num" id="LN63">63</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"mros_dq[0]:%d"</span>, mros_dq[0]);</td></tr>
+<tr><td class="num" id="LN64">64</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"mros_dq[1]:%d"</span>, mros_dq[1]); <span class='comment'>//208 -&gt; 31</span></td></tr>
+<tr><td class="num" id="LN65">65</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"mros_dq[2]:%d"</span>, mros_dq[2]); <span class='comment'>//7 -&gt; 48</span></td></tr>
+<tr><td class="num" id="LN66">66</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"mros_dq[3]:%d"</span>, mros_dq[3]); <span class='comment'>//0 -&gt; -8</span></td></tr>
+<tr><td class="num" id="LN67">67</td><td class="line"></td></tr>
+<tr><td class="num" id="LN68">68</td><td class="line">	free(dq);</td></tr>
+<tr><td class="num" id="LN69">69</td><td class="line">	free(dqq);</td></tr>
+<tr><td class="num" id="LN70">70</td><td class="line">}</td></tr>
+</table></body></html>

@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<head><title>Static Analysis Results</title></head>
+<style>
+body {max-width: 100%;font-family: Consolas;}
+</style>
+
+FILENAME | BUGDESC | BUGTYPE | FUNCTIONNAME | BUGLINE | BUGCOLUMN | REPORT
+---------|---------|---------|--------------|---------|-----------|-------
+userapp.cpp | Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char' | Allocator sizeof operand mismatch | hello_task | 45 | 20 | [Report]("userapp.o\report-0c60aa.html")
+userapp.cpp | Result of 'malloc' is converted to a pointer of type '__intptr_t', which is incompatible with sizeof operand type 'char' | Allocator sizeof operand mismatch | hello_task | 44 | 19 | [Report]("userapp.o\report-21f34c.html")
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="./markdeep.min.js"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

@@ -2,9 +2,9 @@
 
 #include <syslog.h>
 #include <kernel.h>
-
 #include <iostream>
-
+#include <cstring>
+char mem[1024*32];
 std::vector<ID> IDv;
 std::vector<std::string> node_nv;
 
@@ -58,8 +58,9 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	pstr += "<message_definition>string data</message_definition>\n";
 	pstr += "<fptr>12345671</fptr>\n";
 	
-	intptr_t *pdq;
+	std::memcpy(mem,pstr.c_str(),pstr.size());
 	
+	//memcpy ok
 	
 	return pub;
 }
