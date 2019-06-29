@@ -1,5 +1,5 @@
 ﻿#include "ros.h"
-
+#include "kernel_cfg.h"
 #include <syslog.h>
 #include <kernel.h>
 #include <iostream>
@@ -45,7 +45,7 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 
 	//ここまでok(node_nvが自動変数で見えてないのは気になる...node_nv[0]で取得はできてるけど)
 	
-	//string pstrにxmlを格納してデータキューで送信
+	//string pstrにxmlを格納して共有メモリにコピーして，サイズとpub.IDをデータキューで送信
 	std::string pstr;
 	pstr = "<methodCall>registerPublisher</methodCall>\n";
 	pstr += "<topic_name>/";
@@ -62,5 +62,16 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	
 	//memcpy ok
 	
+	int size = strlen(pstr.c_str());
+	unsigned char pbuf[4];
+	intptr_t pdq;
+	pbuf[0] = pub.ID;
+	pbuf[1] = size;
+	pbuf[2] = size/256;
+	pbuf[3] = size/65536;
+
+	pdq = (intptr_t) &pbuf;
+	snd_dtq(DTQ_ID,pdq);
+	slp_tsk();
 	return pub;
 }
