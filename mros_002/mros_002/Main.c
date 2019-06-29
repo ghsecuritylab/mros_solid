@@ -13,5 +13,6 @@ void root_task(intptr_t exinf)
 	syslog(LOG_INFO, "root task started\n");
 
 	act_tsk(HELLO_TASK);
+	act_tsk(XML_MAS_TASK);
 	
 }

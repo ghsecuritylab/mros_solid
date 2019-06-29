@@ -4,6 +4,7 @@
 
 #include "kernel_cfg_intl.h"
 #include "userapp.h"
+#include "mros.h"
 //#include "goodbye.h"
 
 #define CFG_TSKID_USERBASE (1)
@@ -17,6 +18,7 @@ enum
 {
 	ROOT_TASK = CFG_TSKID_USERBASE,
 	HELLO_TASK = 2,
+	XML_MAS_TASK = 3,
 	//GOODBYE_TASK = 3,
 	SYS_RSV_TSK_ID_BASE
 };

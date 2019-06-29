@@ -57,12 +57,16 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	pstr += "</caller_id>\n";
 	pstr += "<message_definition>string data</message_definition>\n";
 	pstr += "<fptr>12345671</fptr>\n";
-	
+	pstr += "<fptr>12345671</fptr>\n";
+	pstr += "<fptr>12345671</fptr>\n";
+	pstr += "<fptr>12345671</fptr>\n";
+	pstr += "<fptr>12345671</fptr>\n";
 	std::memcpy(mem,pstr.c_str(),pstr.size());
 	
 	//memcpy ok
 	
 	int size = strlen(pstr.c_str());
+	
 	unsigned char pbuf[4];
 	intptr_t pdq;
 	pbuf[0] = pub.ID;

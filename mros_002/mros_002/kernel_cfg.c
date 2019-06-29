@@ -50,6 +50,8 @@
 const TINIB _kernel_tinib_table[] = {
 	{TA_ACT, 0, root_task, INT_PRIORITY(MID_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
 	{TA_NULL, 0, hello_task, INT_PRIORITY(LOW_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
+	{TA_NULL, 0, xml_mas_task, INT_PRIORITY(LOW_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
+
 	//{TA_NULL, 0, goodbye_task, INT_PRIORITY(MID_PRIORITY), ROUND_STK_T(STACK_SIZE), NULL},
 	__SOLID_RESERVED_TASKS__};
 
@@ -79,6 +81,7 @@ const TINIB _kernel_tinib_table[] = {
 const ID _kernel_torder_table[] = {
 	ROOT_TASK,
 	HELLO_TASK,
+	XML_MAS_TASK,
 	//GOODBYE_TASK,
 	__SOLID_RESERVED_TASK_ORDER__};
 

@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 //iostreamをインクルードすると，solid_endがe0000->f0000に増えた
 #include <stdlib.h>
 //標準ライブラリの予約語alignがt_stddef.hで定義されてしまったから，ダメだった．
