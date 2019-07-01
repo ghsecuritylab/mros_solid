@@ -26,7 +26,7 @@ void ros::init(std::string node_name){
 	for (int i = 3; i < 6; i++)
 	{
 		IDv.push_back(i);
-		syslog(LOG_INFO,"IDv[%d]:%d",i,IDv[5-i]);
+		syslog(LOG_INFO,"IDv[%d]:%d",i-3,IDv[i-3]);
 	}
 	std::cout << node_name << std::endl;
 
@@ -66,7 +66,7 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	//memcpy ok
 	
 	int size = strlen(pstr.c_str());
-	
+	syslog(LOG_INFO,"pstr size:%d",size);
 	unsigned char pbuf[4];
 	intptr_t pdq;
 	pbuf[0] = pub.ID;
@@ -75,7 +75,7 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	pbuf[3] = size/65536;
 
 	pdq = (intptr_t) &pbuf;
-	snd_dtq(DTQ_ID,pdq);
+	snd_dtq(XML_DTQ,pdq);
 	slp_tsk();
 	return pub;
 }

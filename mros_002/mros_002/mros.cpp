@@ -10,7 +10,7 @@ void xml_mas_task(intptr_t exinf){
 	
 	//dq = (intptr_t *)new char[4];		//mallocと何が違うか．特にmallocなくていけた.ssp/sampleを参考
 
-	rcv_dtq(DTQ_ID,(intptr_t*)(&dq));
+	rcv_dtq(XML_DTQ,(intptr_t*)(&dq));
 	xdq = (unsigned char*)dq;
 	#endif
 	
