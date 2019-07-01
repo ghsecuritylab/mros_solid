@@ -4,7 +4,7 @@
 #include <kernel.h>
 #include <iostream>
 #include <cstring>
-char mem[1024*32];
+
 std::vector<ID> IDv;
 std::vector<std::string> node_nv;
 

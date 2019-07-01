@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "mros.h"
 
 namespace ros{
 	class Publisher{

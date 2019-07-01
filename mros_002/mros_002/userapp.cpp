@@ -13,7 +13,7 @@ void hello_task(intptr_t exinf)
 	//ros::init ok
 	std::string topic1 = "mros_test_topic";
 	ros::init(topic1);
-
+	syslog(LOG_INFO,"topic1 size:%d",sizeof(topic1));		//topic1 size 24 !?
 	//NodeHandleのオブジェクトつくる	:ok
 	ros::NodeHandle n;
 	//advertise		
