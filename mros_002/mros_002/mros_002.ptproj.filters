@@ -26,6 +26,9 @@
     <ClInclude Include="Endpoint.h">
       <Filter>socket-lib</Filter>
     </ClInclude>
+    <ClInclude Include="eth_arch.h">
+      <Filter>socket-lib</Filter>
+    </ClInclude>
     <ClInclude Include="kernel_cfg.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="mros.h" />

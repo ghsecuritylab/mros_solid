@@ -97,6 +97,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\研究\mROS関連\mros-master1.0\mROS-master\asp_mbed\asp-gr_peach_gcc-mbed\mbed-lib\EthernetInterface\Socket\UDPSocket.h" />
     <ClInclude Include="Endpoint.h" />
+    <ClInclude Include="eth_arch.h" />
     <ClInclude Include="kernel_cfg.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="mros.h" />

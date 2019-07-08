@@ -5,6 +5,7 @@
 #include <iostream>
 #include "TCPSocketConnection.h"
 
+#include "impl_net_dev_getconfig.c"		//ネットワーク設定ファイルをインクルード
 
 char mem[1024 * 32];					//shared memory
 const char *m_ip = "192.168.11.4";		//ros master IP
@@ -21,7 +22,12 @@ void get_node(node *node,std::string *xml,bool type){
 	node->set_callerid(get_cid(*xml));
 	node->set_message_definition(get_msgdef(*xml));
 	c += "http://";
-	//c += network.getIPAddress();
+	c += _network_config.ipaddr;		//network_config構造体のipaddrメンバ
+	c += ":11411";
+	node->set_uri(c);
+	if(type){	//false->pub true->sub
+		node->set_fptr(get_fptr(*xml));
+	}
 
 }
 
@@ -76,11 +82,11 @@ void xml_mas_task(intptr_t exinf){
 			//std::string xml;
 			syslog(LOG_INFO, "XML_MAS_TASK: register Publisher ID:[%d]", xdq[0]);
 			pub.ID = xdq[0];
-			get_node(&pub,&str,false);
+			get_node(&pub,&str,false);				//pubなのでfalse
 			syslog(LOG_INFO,"pubID:%d",pub.ID);
-			syslog(LOG_INFO, "pub_topic_name:%s", pub.topic_name.c_str());		
+			syslog(LOG_INFO, "pub_topic_name:%s", pub.topic_name.c_str());		//syslogの出力とstd::coutの出力	
 			std::cout << "pub_topic_type:" << pub.topic_type <<std::endl;	
-				
+			std::cout << "pub_uri:" << pub.uri << std::endl;
 		}
 		//xml_mas_sock.close();
 	}
