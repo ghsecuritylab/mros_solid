@@ -7,6 +7,11 @@
 #include "Main.h"
 
 #ifdef __cplusplus
+#include "ros.h"
+#include "xmlparser.h"
+#endif
+
+#ifdef __cplusplus
 extern "C" {
 #endif
 extern char mem[1024 * 32];		//とりあえず300KB

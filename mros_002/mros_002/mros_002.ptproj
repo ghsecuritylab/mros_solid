@@ -92,6 +92,7 @@
     <ClCompile Include="TCPSocketConnection.cpp" />
     <ClCompile Include="TCPSocketServer.cpp" />
     <ClCompile Include="userapp.cpp" />
+    <ClCompile Include="xmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\研究\mROS関連\mros-master1.0\mROS-master\asp_mbed\asp-gr_peach_gcc-mbed\mbed-lib\EthernetInterface\Socket\UDPSocket.h" />
@@ -104,6 +105,7 @@
     <ClInclude Include="TCPSocketConnection.h" />
     <ClInclude Include="TCPSocketServer.h" />
     <ClInclude Include="userapp.h" />
+    <ClInclude Include="xmlparser.h" />
   </ItemGroup>
   <ItemGroup>
     <SolidMemoryMapCompile Include="..\memory_map.smm" />

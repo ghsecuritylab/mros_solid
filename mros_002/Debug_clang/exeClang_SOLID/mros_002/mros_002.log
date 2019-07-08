@@ -1,6 +1,6 @@
 InitializeBuildStatus:
 	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\mros_002.lastbuilddate" のタッチ タスクを実行しています。
-	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\unsuccessfulbuild" のタッチ タスクを実行しています。
+	"AlwaysCreate" が指定されたため "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\unsuccessfulbuild" を作成しています。
 SolidMemoryMapCompile:
 	すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "SolidMemoryMapCompile" を省略します。
 ClCompile:
@@ -9,9 +9,10 @@ ClCompile:
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\mros.cpp
 	すべての出力が最新のものです。
-	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\Endpoint.cpp
 	すべての出力が最新のものです。
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\xmlparser.cpp
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
 Link:
@@ -22,6 +23,6 @@ FinalizeBuildStatus:
 	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\unsuccessfulbuild" を削除しています。
 	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\mros_002.lastbuilddate" のタッチ タスクを実行しています。
 
-ElapsedTime : 00:00:06.6836548
+ElapsedTime : 00:00:04.7330492
 
 ビルドに成功しました。
