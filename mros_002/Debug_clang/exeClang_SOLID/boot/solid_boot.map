@@ -16,7 +16,7 @@ solid_ttbtable      0x4               C:/ProgramData/KMC/SOLID/SDK/2.0/solid-os/
 Memory Configuration
 
 Name             Origin             Length             Attributes
-solid_ram        0x20800000         0x00200000         xrw
+solid_ram        0x20800000         0x00233333         xrw
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
@@ -57,7 +57,7 @@ END GROUP
                 0x00100000                _smm_MEMFS_Size = 0x100000
                 0x20800000                _smm_SOLID_PhysicalAddress = 0x20800000
                 0xf8000000                _smm_SOLID_VirtualAddress = 0xf8000000
-                0x00200000                _smm_SOLID_Size = 0x200000
+                0x00233333                _smm_SOLID_Size = 0x233333
                 0xe8000000                _smm_SLV3_PhysicalAddress = 0xe8000000
                 0xf0000000                _smm_SLV3_VirtualAddress = 0xf0000000
                 0x00020000                _smm_SLV3_Size = 0x20000
@@ -177,16 +177,16 @@ END GROUP
                 0x20802b04                _solid_mon_end = .
                 0x20810000                . = (_smm_SOLID_PhysicalAddress + 0x10000)
 
-.solid_cs       0x20810000   0x15e958
+.solid_cs       0x20810000   0x162960
                 0x20810000                __start_solid_cs = .
  *(.solid_cs)
- .solid_cs      0x20810000   0x11e958 C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/Debug_clang/exeClang_SOLID/mros_002.bin
+ .solid_cs      0x20810000   0x122960 C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/Debug_clang/exeClang_SOLID/mros_002.bin
                 0x20810000                _binary_mros_002_b_start
-                0x2092e958                _binary_mros_002_b_end
-                0x2092e958                __end_solid_cs = .
-                0x2096e958                . = (. + 0x40000)
- *fill*         0x2092e958    0x40000 
-                0x2096e958                _end = .
+                0x20932960                _binary_mros_002_b_end
+                0x20932960                __end_solid_cs = .
+                0x20972960                . = (. + 0x40000)
+ *fill*         0x20932960    0x40000 
+                0x20972960                _end = .
 
 .comment        0x00000000       0x2d
  *(.comment)

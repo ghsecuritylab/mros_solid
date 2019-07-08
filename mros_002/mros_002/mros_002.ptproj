@@ -83,17 +83,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c" />
+    <ClCompile Include="Endpoint.cpp" />
     <ClCompile Include="kernel_cfg.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="mros.cpp" />
     <ClCompile Include="ros.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="TCPSocketConnection.cpp" />
+    <ClCompile Include="TCPSocketServer.cpp" />
     <ClCompile Include="userapp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\研究\mROS関連\mros-master1.0\mROS-master\asp_mbed\asp-gr_peach_gcc-mbed\mbed-lib\EthernetInterface\Socket\UDPSocket.h" />
+    <ClInclude Include="Endpoint.h" />
     <ClInclude Include="kernel_cfg.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="mros.h" />
     <ClInclude Include="ros.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="TCPSocketConnection.h" />
+    <ClInclude Include="TCPSocketServer.h" />
     <ClInclude Include="userapp.h" />
   </ItemGroup>
   <ItemGroup>

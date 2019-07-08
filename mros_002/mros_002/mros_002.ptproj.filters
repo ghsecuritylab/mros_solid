@@ -2,17 +2,42 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\bsp\AP-RZA-StarterKit\drivers\impl_mem_conf.c" />
+    <ClCompile Include="Endpoint.cpp">
+      <Filter>socket-lib</Filter>
+    </ClCompile>
     <ClCompile Include="kernel_cfg.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="mros.cpp" />
     <ClCompile Include="ros.cpp" />
+    <ClCompile Include="Socket.cpp">
+      <Filter>socket-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocketConnection.cpp">
+      <Filter>socket-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocketServer.cpp">
+      <Filter>socket-lib</Filter>
+    </ClCompile>
     <ClCompile Include="userapp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\研究\mROS関連\mros-master1.0\mROS-master\asp_mbed\asp-gr_peach_gcc-mbed\mbed-lib\EthernetInterface\Socket\UDPSocket.h" />
+    <ClInclude Include="Endpoint.h">
+      <Filter>socket-lib</Filter>
+    </ClInclude>
     <ClInclude Include="kernel_cfg.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="mros.h" />
     <ClInclude Include="ros.h" />
+    <ClInclude Include="Socket.h">
+      <Filter>socket-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocketConnection.h">
+      <Filter>socket-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocketServer.h">
+      <Filter>socket-lib</Filter>
+    </ClInclude>
     <ClInclude Include="userapp.h" />
   </ItemGroup>
   <ItemGroup>
@@ -20,5 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\solid_cs.ld" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="socket-lib">
+      <UniqueIdentifier>{c68b3c9d-82d3-42f8-ba8a-b2630229771b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
