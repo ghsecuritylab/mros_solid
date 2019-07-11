@@ -51,7 +51,7 @@ public:
     \param length The length of the buffer to send.
     \return the number of written bytes on success (>=0) or -1 on failure
      */
-	int single_send(char *data, int length);
+	int single_send(const char *data, int length);
 
 	/** Send all the data to the remote host.
     \param data The buffer to send to the host.

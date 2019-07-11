@@ -39,8 +39,10 @@ void xml_mas_task(intptr_t exinf){
 	#define _XML_MASTER_
 	syslog(LOG_INFO,"start xml_mas_task");
 	intptr_t dq;
+	intptr_t sdata;
 	unsigned char *xdq;	//rcv_dtqしたものをunsigned char*にキャスト
 	char rbuf[512];		//共有メモリに書いたものをコピー
+	char data[4];		//
 	#endif /* _XML_MASTER_ */
 	//dq = (intptr_t *)new char[4];		//mallocと何が違うか．特にmallocなくていけた.ssp/sampleを参考
 
@@ -80,12 +82,13 @@ void xml_mas_task(intptr_t exinf){
 		if (meth == "registerPublisher"){
 			syslog(LOG_NOTICE, "meth:registerPublisher");
 			std::string xml;						//ROSマスタに送る用のxml
-			//xml_mas_sock.single_connect(m_ip, m_port);
+			//dly_tsk(10000000);		//pingテストのために10s遅延
+			xml_mas_sock.single_connect(m_ip, m_port);
+			
 			node pub;
-			//std::string xml;
 			syslog(LOG_INFO, "XML_MAS_TASK: register Publisher ID:[%d]", xdq[0]);
 			pub.ID = xdq[0];
-			get_node(&pub,&str,false);				//pubなのでfalse
+			get_node(&pub,&str,false);				//pubなのでfalse,ノードの情報をxmlから取得して構造体に格納
 
 			//get_nodeの動作確認(ついでにstringの出力おさらい)
 			syslog(LOG_INFO,"pubID:%d",pub.ID);
@@ -93,12 +96,25 @@ void xml_mas_task(intptr_t exinf){
 			std::cout << "pub_topic_type:" << pub.topic_type <<std::endl;	
 			std::cout << "pub_uri:" << pub.uri << std::endl;
 
-			node_lst.push_back(pub);
+			node_lst.push_back(pub);		//pubノードをノードリストに加える
 			
 			xml = registerPublisher(pub.callerid,pub.topic_name,pub.topic_type,pub.uri);
+			//xmlのサイズ以外はちゃんと入れられた．
 
+			xml_mas_sock.single_send(xml.c_str(),xml.size());
 			//std::cout << xml << std::endl;
-			
+			xml_mas_sock.receive(rbuf,sizeof(char)*512);
+			std::cout <<"received rbuf:"<<"\n" <<rbuf << std::endl;
+
+			/*
+			data[0] = pub.ID;
+			data[1] = 0;
+			data[2] = 0;
+			data[3] = 0;
+			sdata = (intptr_t) &data;
+			snd_dtq(PUB_DTQ,sdata);
+			*/
+
 		}
 		//xml_mas_sock.close();
 	}

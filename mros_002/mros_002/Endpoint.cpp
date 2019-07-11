@@ -45,10 +45,9 @@ int Endpoint::set_address(const char *host, const int port)
 	char *p_address = address;
 
 	// Dot-decimal notation
-	int result = std::sscanf(host, "%3u.%3u.%3u.%3u",
-							 (unsigned int *)&address[0], (unsigned int *)&address[1],
-							 (unsigned int *)&address[2], (unsigned int *)&address[3]);
+	int result = std::sscanf(host, "%3u.%3u.%3u.%3u", (unsigned int *)&address[0], (unsigned int *)&address[1],(unsigned int *)&address[2], (unsigned int *)&address[3]);
 
+/* -------------この間でportがなぜか0になってる------------ */
 	if (result != 4)
 	{
 		// Resolve address with DNS
@@ -63,7 +62,7 @@ int Endpoint::set_address(const char *host, const int port)
 	_remoteHost.sin_family = AF_INET;
 
 	// Set port
-	_remoteHost.sin_port = PP_HTONS(port);
+	_remoteHost.sin_port = PP_HTONS(11311);	//なぜかportが０になるのでとりあえず無理やり設定することでroscoreに接続ok
 
 	return 0;
 }

@@ -48,7 +48,7 @@ bool TCPSocketConnection::is_connected(void)
 	return _is_connected;
 }
 
-int TCPSocketConnection::single_send(char *data, int length)
+int TCPSocketConnection::single_send(const char *data, int length)
 {
 	if ((_sock_fd < 0) || !_is_connected)
 		return -1;

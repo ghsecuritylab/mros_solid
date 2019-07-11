@@ -16,9 +16,9 @@
 #ifdef STATIC_IP_ADDR
 const NetIfConfig_t	_network_config =
 {
-		"192.168.0.100",	// Local IP address
+		"192.168.11.100",	// Local IP address
 		"255.255.255.0",	// Subnet mask
-		"192.168.0.1",		// Gateway IP address
+		"192.168.11.1",		// Gateway IP address
 		NO_DNS_SERVER_LIST()// list of DNS servers
 };
 

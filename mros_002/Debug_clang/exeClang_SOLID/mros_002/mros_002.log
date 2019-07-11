@@ -8,6 +8,7 @@ ClCompile:
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
+	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\mros.cpp
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
@@ -15,7 +16,6 @@ ClCompile:
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
 	すべての出力が最新のものです。
-	C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\mros_002\xmlcall.cpp
 	すべての出力が最新のものです。
 Link:
 	mros_002.ptproj -> C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002.out
@@ -25,6 +25,6 @@ FinalizeBuildStatus:
 	ファイル "C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\unsuccessfulbuild" を削除しています。
 	"C:\Users\admin\Documents\SOLID-IDE\Projects\mros_002\Debug_clang\exeClang_SOLID\mros_002\mros_002.tlog\mros_002.lastbuilddate" のタッチ タスクを実行しています。
 
-ElapsedTime : 00:00:06.9794232
+ElapsedTime : 00:00:05.8078667
 
 ビルドに成功しました。
