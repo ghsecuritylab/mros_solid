@@ -6,7 +6,8 @@
 #include <cstring>
 
 std::vector<ID> IDv;
-std::vector<std::string> node_nv;
+std::vector<std::string> node_nv;		//ノードの名前ベクタ
+extern std::vector<node> node_lst;		//mros.cppに"定義"されてるノードリスト
 
 int ID_find(std::vector<ID> IDv,ID id){
 	for(unsigned int i=0;i<IDv.size();i++){
@@ -42,7 +43,8 @@ ros::Publisher ros::NodeHandle::advertise(std::string topic,int queue_size){
 	Publisher pub;
 	pub.node = node_nv[ID_find(IDv,id)].c_str();
 	pub.topic = topic.c_str();
-
+	pub.ID = count;
+	count++;
 	//ここまでok(node_nvが自動変数で見えてないのは気になる...node_nv[0]で取得はできてるけど)
 	
 	//string pstrにxmlを格納して共有メモリにコピーして，サイズとpub.IDをデータキューで送信

@@ -91,7 +91,9 @@
     <ClCompile Include="Socket.cpp" />
     <ClCompile Include="TCPSocketConnection.cpp" />
     <ClCompile Include="TCPSocketServer.cpp" />
+    <ClCompile Include="tcp_ros.cpp" />
     <ClCompile Include="userapp.cpp" />
+    <ClCompile Include="xmlcall.cpp" />
     <ClCompile Include="xmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -105,7 +107,9 @@
     <ClInclude Include="Socket.h" />
     <ClInclude Include="TCPSocketConnection.h" />
     <ClInclude Include="TCPSocketServer.h" />
+    <ClInclude Include="tcp_ros.h" />
     <ClInclude Include="userapp.h" />
+    <ClInclude Include="xmlcall.h" />
     <ClInclude Include="xmlparser.h" />
   </ItemGroup>
   <ItemGroup>

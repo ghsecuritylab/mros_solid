@@ -18,7 +18,9 @@
     <ClCompile Include="TCPSocketServer.cpp">
       <Filter>socket-lib</Filter>
     </ClCompile>
+    <ClCompile Include="tcp_ros.cpp" />
     <ClCompile Include="userapp.cpp" />
+    <ClCompile Include="xmlcall.cpp" />
     <ClCompile Include="xmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +44,9 @@
     <ClInclude Include="TCPSocketServer.h">
       <Filter>socket-lib</Filter>
     </ClInclude>
+    <ClInclude Include="tcp_ros.h" />
     <ClInclude Include="userapp.h" />
+    <ClInclude Include="xmlcall.h" />
     <ClInclude Include="xmlparser.h" />
   </ItemGroup>
   <ItemGroup>

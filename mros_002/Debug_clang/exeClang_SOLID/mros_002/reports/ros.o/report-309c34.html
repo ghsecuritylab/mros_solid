@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<title>C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/ros.cpp</title>
+<style type="text/css">
+ body { color:#000000; background-color:#ffffff }
+ body { font-family:Helvetica, sans-serif; font-size:10pt }
+ h1 { font-size:14pt }
+ .FileName { margin-top: 5px; margin-bottom: 5px; display: inline; }
+ .FileNav { margin-left: 5px; margin-right: 5px; display: inline; }
+ .FileNav a { text-decoration:none; font-size: larger; }
+ .divider { margin-top: 30px; margin-bottom: 30px; height: 15px; }
+ .divider { background-color: gray; }
+ .code { border-collapse:collapse; width:100%; }
+ .code { font-family: "Monospace", monospace; font-size:10pt }
+ .code { line-height: 1.2em }
+ .comment { color: green; font-style: oblique }
+ .keyword { color: blue }
+ .string_literal { color: red }
+ .directive { color: darkmagenta }
+ .expansion { display: none; }
+ .macro:hover .expansion { display: block; border: 2px solid #FF0000; padding: 2px; background-color:#FFF0F0; font-weight: normal;   -webkit-border-radius:5px;  -webkit-box-shadow:1px 1px 7px #000;   border-radius:5px;  box-shadow:1px 1px 7px #000; position: absolute; top: -1em; left:10em; z-index: 1 } 
+ .macro { color: darkmagenta; background-color:LemonChiffon; position: relative }
+ .num { width:2.5em; padding-right:2ex; background-color:#eeeeee }
+ .num { text-align:right; font-size:8pt }
+ .num { color:#444444 }
+ .line { padding-left: 1ex; border-left: 3px solid #ccc }
+ .line { white-space: pre }
+ .msg { -webkit-box-shadow:1px 1px 7px #000 }
+ .msg { box-shadow:1px 1px 7px #000 }
+ .msg { -webkit-border-radius:5px }
+ .msg { border-radius:5px }
+ .msg { font-family:Helvetica, sans-serif; font-size:8pt }
+ .msg { float:left }
+ .msg { padding:0.25em 1ex 0.25em 1ex }
+ .msg { margin-top:10px; margin-bottom:10px }
+ .msg { font-weight:bold }
+ .msg { max-width:60em; word-wrap: break-word; white-space: pre-wrap }
+ .msgT { padding:0x; spacing:0x }
+ .msgEvent { background-color:#fff8b4; color:#000000 }
+ .msgControl { background-color:#bbbbbb; color:#000000 }
+ .msgNote { background-color:#ddeeff; color:#000000 }
+ .mrange { background-color:#dfddf3 }
+ .mrange { border-bottom:1px solid #6F9DBE }
+ .PathIndex { font-weight: bold; padding:0px 5px; margin-right:5px; }
+ .PathIndex { -webkit-border-radius:8px }
+ .PathIndex { border-radius:8px }
+ .PathIndexEvent { background-color:#bfba87 }
+ .PathIndexControl { background-color:#8c8c8c }
+ .PathNav a { text-decoration:none; font-size: larger }
+ .CodeInsertionHint { font-weight: bold; background-color: #10dd10 }
+ .CodeRemovalHint { background-color:#de1010 }
+ .CodeRemovalHint { border-bottom:1px solid #6F9DBE }
+ .selected{ background-color:orange !important; }
+ table.simpletable {
+   padding: 5px;
+   font-size:12pt;
+   margin:20px;
+   border-collapse: collapse; border-spacing: 0px;
+ }
+ td.rowname {
+   text-align: right;
+   vertical-align: top;
+   font-weight: bold;
+   color:#444444;
+   padding-right:2ex;
+ }
+</style>
+</head>
+<body>
+<!-- BUGDESC Assigned value is garbage or undefined -->
+
+<!-- BUGTYPE Assigned value is garbage or undefined -->
+
+<!-- BUGCATEGORY Logic error -->
+
+<!-- BUGFILE C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/ros.cpp -->
+
+<!-- FILENAME ros.cpp -->
+
+<!-- FUNCTIONNAME advertise -->
+
+<!-- ISSUEHASHCONTENTOFLINEINCONTEXT 5f27eaaac8bf081d7ebab929a1c1282a -->
+
+<!-- BUGLINE 73 -->
+
+<!-- BUGCOLUMN 10 -->
+
+<!-- BUGPATHLENGTH 1 -->
+
+<!-- BUGMETAEND -->
+<!-- REPORTHEADER -->
+<h3>Bug Summary</h3>
+<table class="simpletable">
+<tr><td class="rowname">File:</td><td>C:/Users/admin/Documents/SOLID-IDE/Projects/mros_002/mros_002/ros.cpp</td></tr>
+<tr><td class="rowname">Warning:</td><td><a href="#EndPath">line 73, column 10</a><br />Assigned value is garbage or undefined</td></tr>
+
+</table>
+<!-- REPORTSUMMARYEXTRA -->
+<h3>Annotated Source Code</h3>
+<p><span class='macro'>[?]
+  <span class='expansion'>Use j/k keys for keyboard navigation</span>
+</span></p>
+
+<script type='text/javascript'>
+var digitMatcher = new RegExp("[0-9]+");
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".PathNav > a").forEach(
+        function(currentValue, currentIndex) {
+            var hrefValue = currentValue.getAttribute("href");
+            currentValue.onclick = function() {
+                scrollTo(document.querySelector(hrefValue));
+                return false;
+            };
+        });
+});
+
+var findNum = function() {
+    var s = document.querySelector(".selected");
+    if (!s || s.id == "EndPath") {
+        return 0;
+    }
+    var out = parseInt(digitMatcher.exec(s.id)[0]);
+    return out;
+};
+
+var scrollTo = function(el) {
+    document.querySelectorAll(".selected").forEach(function(s) {
+        s.classList.remove("selected");
+    });
+    el.classList.add("selected");
+    window.scrollBy(0, el.getBoundingClientRect().top -
+        (window.innerHeight / 2));
+}
+
+var move = function(num, up, numItems) {
+  if (num == 1 && up || num == numItems - 1 && !up) {
+    return 0;
+  } else if (num == 0 && up) {
+    return numItems - 1;
+  } else if (num == 0 && !up) {
+    return 1 % numItems;
+  }
+  return up ? num - 1 : num + 1;
+}
+
+var numToId = function(num) {
+  if (num == 0) {
+    return document.getElementById("EndPath")
+  }
+  return document.getElementById("Path" + num);
+};
+
+var navigateTo = function(up) {
+  var numItems = document.querySelectorAll(".line > .msg").length;
+  var currentSelected = findNum();
+  var newSelected = move(currentSelected, up, numItems);
+  var newEl = numToId(newSelected, numItems);
+
+  // Scroll element into center.
+  scrollTo(newEl);
+};
+
+window.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented) {
+    return;
+  }
+  if (event.key == "j") {
+    navigateTo(/*up=*/false);
+  } else if (event.key == "k") {
+    navigateTo(/*up=*/true);
+  } else {
+    return;
+  } 
+  event.preventDefault();
+}, true);
+</script>
+  <table class="code">
+<tr><td class="num" id="LN1">1</td><td class="line">﻿<span class='directive'>#include "ros.h"</span></td></tr>
+<tr><td class="num" id="LN2">2</td><td class="line"><span class='directive'>#include "kernel_cfg.h"</span></td></tr>
+<tr><td class="num" id="LN3">3</td><td class="line"><span class='directive'>#include &lt;syslog.h&gt;</span></td></tr>
+<tr><td class="num" id="LN4">4</td><td class="line"><span class='directive'>#include &lt;kernel.h&gt;</span></td></tr>
+<tr><td class="num" id="LN5">5</td><td class="line"><span class='directive'>#include &lt;iostream&gt;</span></td></tr>
+<tr><td class="num" id="LN6">6</td><td class="line"><span class='directive'>#include &lt;cstring&gt;</span></td></tr>
+<tr><td class="num" id="LN7">7</td><td class="line"></td></tr>
+<tr><td class="num" id="LN8">8</td><td class="line">std::vector&lt;ID&gt; IDv;</td></tr>
+<tr><td class="num" id="LN9">9</td><td class="line">std::vector&lt;std::string&gt; node_nv;		<span class='comment'>//ノードの名前ベクタ</span></td></tr>
+<tr><td class="num" id="LN10">10</td><td class="line"><span class='keyword'>extern</span> std::vector&lt;node&gt; node_lst;		<span class='comment'>//mros.cppに"定義"されてるノードリスト</span></td></tr>
+<tr><td class="num" id="LN11">11</td><td class="line"></td></tr>
+<tr><td class="num" id="LN12">12</td><td class="line"><span class='keyword'>int</span> ID_find(std::vector&lt;ID&gt; IDv,ID id){</td></tr>
+<tr><td class="num" id="LN13">13</td><td class="line">	<span class='keyword'>for</span>(<span class='keyword'>unsigned</span> <span class='keyword'>int</span> i=0;i&lt;IDv.size();i++){</td></tr>
+<tr><td class="num" id="LN14">14</td><td class="line">		<span class='keyword'>if</span>(id == IDv[i]){</td></tr>
+<tr><td class="num" id="LN15">15</td><td class="line">			<span class='keyword'>return</span> i;</td></tr>
+<tr><td class="num" id="LN16">16</td><td class="line">		}</td></tr>
+<tr><td class="num" id="LN17">17</td><td class="line">	}</td></tr>
+<tr><td class="num" id="LN18">18</td><td class="line">	<span class='keyword'>return</span> -1;</td></tr>
+<tr><td class="num" id="LN19">19</td><td class="line">}</td></tr>
+<tr><td class="num" id="LN20">20</td><td class="line"></td></tr>
+<tr><td class="num" id="LN21">21</td><td class="line"><span class='keyword'>void</span> ros::init(std::string node_name){</td></tr>
+<tr><td class="num" id="LN22">22</td><td class="line"></td></tr>
+<tr><td class="num" id="LN23">23</td><td class="line">	ID id;</td></tr>
+<tr><td class="num" id="LN24">24</td><td class="line">	get_tid(&amp;id);</td></tr>
+<tr><td class="num" id="LN25">25</td><td class="line">	IDv.push_back(id);</td></tr>
+<tr><td class="num" id="LN26">26</td><td class="line">	<span class='comment'>//適当にpush_back</span></td></tr>
+<tr><td class="num" id="LN27">27</td><td class="line">	<span class='keyword'>for</span> (<span class='keyword'>int</span> i = 3; i &lt; 6; i++)</td></tr>
+<tr><td class="num" id="LN28">28</td><td class="line">	{</td></tr>
+<tr><td class="num" id="LN29">29</td><td class="line">		IDv.push_back(i);</td></tr>
+<tr><td class="num" id="LN30">30</td><td class="line">		syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>,<span class='string_literal'>"IDv[%d]:%d"</span>,i-3,IDv[i-3]);</td></tr>
+<tr><td class="num" id="LN31">31</td><td class="line">	}</td></tr>
+<tr><td class="num" id="LN32">32</td><td class="line">	std::cout &lt;&lt; node_name &lt;&lt; std::endl;</td></tr>
+<tr><td class="num" id="LN33">33</td><td class="line"></td></tr>
+<tr><td class="num" id="LN34">34</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"task ID:%d"</span>, id);</td></tr>
+<tr><td class="num" id="LN35">35</td><td class="line">	</td></tr>
+<tr><td class="num" id="LN36">36</td><td class="line">	node_nv.push_back(node_name);</td></tr>
+<tr><td class="num" id="LN37">37</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>, <span class='string_literal'>"node_nv[0]:%s"</span>, node_nv[0].c_str());</td></tr>
+<tr><td class="num" id="LN38">38</td><td class="line">}</td></tr>
+<tr><td class="num" id="LN39">39</td><td class="line"></td></tr>
+<tr><td class="num" id="LN40">40</td><td class="line">ros::Publisher ros::NodeHandle::advertise(std::string topic,<span class='keyword'>int</span> queue_size){</td></tr>
+<tr><td class="num" id="LN41">41</td><td class="line">	ID id;</td></tr>
+<tr><td class="num" id="LN42">42</td><td class="line">	get_tid(&amp;id);</td></tr>
+<tr><td class="num" id="LN43">43</td><td class="line">	Publisher pub;</td></tr>
+<tr><td class="num" id="LN44">44</td><td class="line">	pub.node = node_nv[ID_find(IDv,id)].c_str();</td></tr>
+<tr><td class="num" id="LN45">45</td><td class="line">	pub.topic = topic.c_str();</td></tr>
+<tr><td class="num" id="LN46">46</td><td class="line"></td></tr>
+<tr><td class="num" id="LN47">47</td><td class="line">	<span class='comment'>//ここまでok(node_nvが自動変数で見えてないのは気になる...node_nv[0]で取得はできてるけど)</span></td></tr>
+<tr><td class="num" id="LN48">48</td><td class="line">	</td></tr>
+<tr><td class="num" id="LN49">49</td><td class="line">	<span class='comment'>//string pstrにxmlを格納して共有メモリにコピーして，サイズとpub.IDをデータキューで送信</span></td></tr>
+<tr><td class="num" id="LN50">50</td><td class="line">	std::string pstr;</td></tr>
+<tr><td class="num" id="LN51">51</td><td class="line">	pstr = <span class='string_literal'>"&lt;methodCall&gt;registerPublisher&lt;/methodCall&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN52">52</td><td class="line">	pstr += <span class='string_literal'>"&lt;topic_name&gt;/"</span>;</td></tr>
+<tr><td class="num" id="LN53">53</td><td class="line">	pstr += topic;</td></tr>
+<tr><td class="num" id="LN54">54</td><td class="line">	pstr += <span class='string_literal'>"&lt;/topic_name&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN55">55</td><td class="line">	pstr += <span class='string_literal'>"&lt;topic_type&gt;std_msgs/String&lt;/topic_type&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN56">56</td><td class="line">	pstr += <span class='string_literal'>"&lt;caller_id&gt;/"</span>;</td></tr>
+<tr><td class="num" id="LN57">57</td><td class="line">	pstr += pub.node;</td></tr>
+<tr><td class="num" id="LN58">58</td><td class="line">	pstr += <span class='string_literal'>"&lt;/caller_id&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN59">59</td><td class="line">	pstr += <span class='string_literal'>"&lt;message_definition&gt;string data&lt;/message_definition&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN60">60</td><td class="line">	pstr += <span class='string_literal'>"&lt;fptr&gt;12345671&lt;/fptr&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN61">61</td><td class="line">	pstr += <span class='string_literal'>"&lt;fptr&gt;12345671&lt;/fptr&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN62">62</td><td class="line">	pstr += <span class='string_literal'>"&lt;fptr&gt;12345671&lt;/fptr&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN63">63</td><td class="line">	pstr += <span class='string_literal'>"&lt;fptr&gt;12345671&lt;/fptr&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN64">64</td><td class="line">	pstr += <span class='string_literal'>"&lt;fptr&gt;12345671&lt;/fptr&gt;\n"</span>;</td></tr>
+<tr><td class="num" id="LN65">65</td><td class="line">	std::memcpy(mem,pstr.c_str(),pstr.size());</td></tr>
+<tr><td class="num" id="LN66">66</td><td class="line">	</td></tr>
+<tr><td class="num" id="LN67">67</td><td class="line">	<span class='comment'>//memcpy ok</span></td></tr>
+<tr><td class="num" id="LN68">68</td><td class="line">	</td></tr>
+<tr><td class="num" id="LN69">69</td><td class="line">	<span class='keyword'>int</span> size = strlen(pstr.c_str());</td></tr>
+<tr><td class="num" id="LN70">70</td><td class="line">	syslog(<span class='macro'>LOG_INFO<span class='expansion'>(6U)</span></span>,<span class='string_literal'>"pstr size:%d"</span>,size);</td></tr>
+<tr><td class="num" id="LN71">71</td><td class="line">	<span class='keyword'>unsigned</span> <span class='keyword'>char</span> pbuf[4];</td></tr>
+<tr><td class="num" id="LN72">72</td><td class="line">	<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span> pdq;</td></tr>
+<tr><td class="num" id="LN73">73</td><td class="line">	pbuf[0] = <span class="mrange">pub.ID</span>;</td></tr>
+<tr><td class="num"></td><td class="line"><div id="EndPath" class="msg msgEvent" style="margin-left:17ex">Assigned value is garbage or undefined</div></td></tr>
+<tr><td class="num" id="LN74">74</td><td class="line">	pbuf[1] = size;</td></tr>
+<tr><td class="num" id="LN75">75</td><td class="line">	pbuf[2] = size/256;</td></tr>
+<tr><td class="num" id="LN76">76</td><td class="line">	pbuf[3] = size/65536;</td></tr>
+<tr><td class="num" id="LN77">77</td><td class="line"></td></tr>
+<tr><td class="num" id="LN78">78</td><td class="line">	pdq = (<span class='macro'>intptr_t<span class='expansion'>__intptr_t</span></span>) &amp;pbuf;</td></tr>
+<tr><td class="num" id="LN79">79</td><td class="line">	snd_dtq(XML_DTQ,pdq);</td></tr>
+<tr><td class="num" id="LN80">80</td><td class="line">	slp_tsk();</td></tr>
+<tr><td class="num" id="LN81">81</td><td class="line">	<span class='keyword'>return</span> pub;</td></tr>
+<tr><td class="num" id="LN82">82</td><td class="line">}</td></tr></table></body></html>

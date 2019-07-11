@@ -8,8 +8,11 @@
 #include "impl_net_dev_getconfig.c"		//ネットワーク設定ファイルをインクルード
 
 char mem[1024 * 32];					//shared memory
+int count = 1;							//for assign node ID
+
 const char *m_ip = "192.168.11.4";		//ros master IP
 const int m_port = 11311;				//ros master xmlrpc port 
+std::vector<node> node_lst;				//mros node vector
 
 //set node information
 void get_node(node *node,std::string *xml,bool type){
@@ -76,17 +79,26 @@ void xml_mas_task(intptr_t exinf){
 		//==========registerPublisher=================
 		if (meth == "registerPublisher"){
 			syslog(LOG_NOTICE, "meth:registerPublisher");
-			std::string xml;
+			std::string xml;						//ROSマスタに送る用のxml
 			//xml_mas_sock.single_connect(m_ip, m_port);
 			node pub;
 			//std::string xml;
 			syslog(LOG_INFO, "XML_MAS_TASK: register Publisher ID:[%d]", xdq[0]);
 			pub.ID = xdq[0];
 			get_node(&pub,&str,false);				//pubなのでfalse
+
+			//get_nodeの動作確認(ついでにstringの出力おさらい)
 			syslog(LOG_INFO,"pubID:%d",pub.ID);
 			syslog(LOG_INFO, "pub_topic_name:%s", pub.topic_name.c_str());		//syslogの出力とstd::coutの出力	
 			std::cout << "pub_topic_type:" << pub.topic_type <<std::endl;	
 			std::cout << "pub_uri:" << pub.uri << std::endl;
+
+			node_lst.push_back(pub);
+			
+			xml = registerPublisher(pub.callerid,pub.topic_name,pub.topic_type,pub.uri);
+
+			//std::cout << xml << std::endl;
+			
 		}
 		//xml_mas_sock.close();
 	}

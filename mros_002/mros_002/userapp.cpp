@@ -19,12 +19,13 @@ void hello_task(intptr_t exinf)
 	//advertise		
 	ros::Publisher chatter_pub = n.advertise(topic1,1);
 
-	
+	slp_tsk();
 	
 	intptr_t *dq;
 	intptr_t *dqq;
 	free(dq);
 	free(dqq);
+	
 	/*
 	dq = (intptr_t *)malloc(sizeof(char) * 10); //コード分析で怒られはするけれどビルドは通る
 	dqq = (intptr_t *)malloc(sizeof(char) * 10);
